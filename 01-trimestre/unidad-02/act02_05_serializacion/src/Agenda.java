@@ -45,7 +45,7 @@ public class Agenda implements Serializable {
         for (Contacto contacto : agenda) {
             nombreApellido = contacto.getNombre() + " " + contacto.getApellido();
             if (nombreApellido.equalsIgnoreCase(nombreCompleto)) {
-                encontrado = encontrado + contacto + "\n";
+                encontrado += contacto + "\n";
             }
         }
         if(encontrado.isEmpty()){
@@ -64,7 +64,7 @@ public class Agenda implements Serializable {
         String encontrado = "";
         for (Contacto contacto : agenda) {
             if (contacto.getTlfn().equalsIgnoreCase(tlfn)) {
-                encontrado = encontrado + contacto + "\n";
+                encontrado += contacto + "\n";
             }
         }
         if(encontrado.isEmpty()){
