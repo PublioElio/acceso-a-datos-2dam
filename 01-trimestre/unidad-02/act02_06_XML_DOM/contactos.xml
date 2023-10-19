@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<contactos>
+
+    <contacto if="c001">
+        <nombre>José</nombre>
+        <apellidos>García Suárez</apellidos>
+        <correo>
+            <trabajo>jrgarcia@iesbelen.org</trabajo>
+        </correo>
+        <telefonos>
+            <movil>616616616</movil>
+        </telefonos>
+    </contacto>
+
+    <contacto if="c002">
+        <nombre>Antonio</nombre>
+        <apellidos>Luque Perez</apellidos>
+        <correo>
+            <trabajo>alperez@iesbelen.org</trabajo>
+            <personal>antoniolp@gmail.com</personal>
+        </correo>
+        <telefonos>
+            <casa>958656356</casa>
+            <movil>645698523</movil>
+        </telefonos>
+    </contacto>
+
+    <contacto if="c003">
+        <nombre>Manuel</nombre>
+        <apellidos>Pareja Domínguez</apellidos>
+        <correo>
+            <trabajo>maparejad@iesbelen.org</trabajo>
+            <personal>manu_1994p@gmail.com</personal>
+        </correo>
+        <telefonos>
+            <casa>961852358</casa>
+            <movil>616874236</movil>
+        </telefonos>
+    </contacto>
+
+</contactos>

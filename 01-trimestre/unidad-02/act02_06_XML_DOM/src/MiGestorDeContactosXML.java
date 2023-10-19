@@ -28,9 +28,9 @@ public class MiGestorDeContactosXML extends DefaultHandler {
 
     public void endElement(String uri, String nombreLocal, String qName) throws SAXException {
         if (!qName.isBlank()) {
-            if (qName.equals("Nombre"))
+            if (qName.equals("nombre"))
                 datosDelContacto = contenido;
-            else if (qName.equals("apellido"))
+            else if (qName.equals("apellidos"))
                 datosDelContacto += " " + contenido;
             else if (analizandoTelefonos && qName.equals("casa") && tipoTelefonoGuardado == TiposTelefono.NINGUNO) {
                 telefono = contenido;
