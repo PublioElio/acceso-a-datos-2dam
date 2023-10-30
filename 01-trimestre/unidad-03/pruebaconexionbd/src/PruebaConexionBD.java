@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 public class PruebaConexionBD {
     public static void main(String[] args)
-            throws ClassNotFoundException, SQLException {
+            throws SQLException {
         Connection conn = null;
         try {
             Class.forName("org.postgresql.Driver");
