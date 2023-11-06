@@ -12,9 +12,8 @@ public class ConsultaBD1 {
         ResultSet rs = statement.executeQuery(SQLsentence);
         System.out.println("Nombre"+"\t"+"Código");
         System.out.println("---------------------------------");
-        while (rs.next()){
+        while (rs.next())
             System.out.println(rs.getString(1) + "\t" + rs.getString(2));
-        }
         rs.close();
         conn.close();
     }
