@@ -4,12 +4,12 @@ public class ConsultaBD1 {
     public static void main(String[] args) {
         Connection conn;
         try{
-            Class.forName("org.postgresql.Driver");
-            String url = "jdbc:postgresql://localhost:5432/institutoFP";
+            Class.forName("org.postgresql.Driver"); // esto es para decirle el tipo de bases de datos que hay que usar
+            String url = "jdbc:postgresql://localhost:5432/InstitutoFP";
             String user = "postgres";
-            String pass = "123";
+            String pass = "A123456a";
             conn = DriverManager.getConnection(url,user,pass);
-            PreparedStatement consulta = conn.prepareStatement("INSERT INTO \"Asignaturas\"(nombre,anyo) VALUES (?,?)");
+            PreparedStatement consulta = conn.prepareStatement("INSERT INTO \"Asignaturas\" (nombre,anyo) VALUES (?,?)");
             consulta.setString(1,"Lenguaje de marcas");
             consulta.setInt(2,1);
             consulta.executeUpdate();
