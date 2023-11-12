@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Examen-2023-10-23.iml" filepath="$PROJECT_DIR$/.idea/Examen-2023-10-23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eje1-Adriano-DiazBenitez/eje1-Adriano-DiazBenitez.iml" filepath="$PROJECT_DIR$/eje1-Adriano-DiazBenitez/eje1-Adriano-DiazBenitez.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eje2-Adriano-DiazBenitez/eje2-Adriano-DiazBenitez.iml" filepath="$PROJECT_DIR$/eje2-Adriano-DiazBenitez/eje2-Adriano-DiazBenitez.iml" />
+    </modules>
+  </component>
+</project>
