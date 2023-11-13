@@ -1,26 +1,27 @@
 package org.example;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
+
 import java.io.*;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.Unmarshaller;
+
 
 public class Registro implements Serializable {
 
     private String rutaDatos;
     private String rutaXml;
 
-
     public Registro(String rutaDatos, String rutaXml) {
         this.rutaDatos = rutaDatos;
         this.rutaXml = rutaXml;
     }
 
-
     public Equipo cargarXml() {
         Equipo equipo;
         try {
+
             JAXBContext context = JAXBContext.newInstance(Equipo.class);
             Unmarshaller unmarshaller = context.createUnmarshaller();
             equipo = (Equipo) unmarshaller.unmarshal(new File(rutaXml));
@@ -33,9 +34,9 @@ public class Registro implements Serializable {
     public boolean guardarXml(Equipo equipo){
         boolean guardado = false;
         try {
+
             JAXBContext context = JAXBContext.newInstance(Equipo.class);
             Marshaller marshaller = context.createMarshaller();
-            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
             try {
                 marshaller.marshal(equipo, new FileWriter(rutaXml));
             } catch (IOException e) {
