@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="org.example.entidades.AsignaturasEntity">
+        <table name="Asignaturas" schema="public" catalog="InstitutoFP"/>
+        <attributes>
+            <basic name="nombre">
+                <column name="nombre"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
