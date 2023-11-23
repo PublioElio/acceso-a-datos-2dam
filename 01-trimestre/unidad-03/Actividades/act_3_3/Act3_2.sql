@@ -1,6 +1,6 @@
--- Database: InstitutoFP
+-- Database: empleados
 
--- DROP DATABASE IF EXISTS "InstitutoFP";
+-- DROP DATABASE IF EXISTS "departamentos";
 CREATE TABLE  departamentos
 (depno INTEGER PRIMARY KEY,
 nombre VARCHAR(14),
