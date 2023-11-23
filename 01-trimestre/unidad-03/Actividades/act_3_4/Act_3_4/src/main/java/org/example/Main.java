@@ -6,7 +6,7 @@ public class Main {
             Class.forName("org.postgresql.Driver");
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
-            String url = "jdbc:pos";
+            //String url = "jdbc:pos";
         }
     }
 }
