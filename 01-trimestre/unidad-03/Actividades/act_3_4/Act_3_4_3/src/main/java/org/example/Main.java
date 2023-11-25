@@ -16,7 +16,7 @@ public class Main {
             statement.close();
             con.close();
         } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
+            System.out.println("ERROR. " + e.getMessage());
         }
     }
 }
