@@ -1,19 +1,39 @@
 package org.example;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        DBManager db = new DBManager("jdbc:postgresql://localhost:5432/empleados",
+                "postgres",
+                "A123456a",
+                "org.postgresql.Driver");
+        System.out.println("Conexión realizada: " + db.connect());
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // Las dos siguientes líneas de código están comentadas porque son para crear y borrar una base de datos, respectivamente
+        //System.out.println("Crear base de datos empleados: " + db.createDatabase("empleados"));
+        //System.out.println("Borrar base de datos empleados: " + db.deleteDatabase("empleados"));
 
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        // Crear las tablas:
+        String tablaDepartamentos = "CREATE TABLE departamentos ("
+                + "id SERIAL PRIMARY KEY,"
+                + "nombre VARCHAR(100) NOT NULL,"
+                + "presupuesto DOUBLE PRECISION NOT NULL,"
+                + "gastos DOUBLE PRECISION NOT NULL"
+                + ")";
+        String tablaEmpleados = "CREATE TABLE empleados ("
+                + "id SERIAL PRIMARY KEY,"
+                + "nif VARCHAR(9) NOT NULL UNIQUE,"
+                + "nombre VARCHAR(100) NOT NULL,"
+                + "apellido1 VARCHAR(100) NOT NULL,"
+                + "apellido2 VARCHAR(100),"
+                + "id_departamento INT,"
+                + "FOREIGN KEY (id_departamento) REFERENCES departamentos(id)"
+                + ")";
+        System.out.println("Se ha creado la tabla 'departamentos': " + db.createTable(tablaDepartamentos));
+        System.out.println("Se ha creado la tabla 'empleados': " + db.createTable(tablaEmpleados));
+
+        // Este línea de abajo es para probar que, efectivamente, funciona el método para borrar tablas
+        //System.out.println("Se ha borrado la tabla 'departamentos': " + db.deleteTable("departamentos"));
+
+        System.out.println("Conexión terminada: " + db.closeConnection());
     }
 }
