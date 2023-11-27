@@ -9,11 +9,12 @@ public class Main {
         System.out.println("Conexión realizada: " + db.connect());
 
         // Las dos siguientes líneas de código están comentadas porque son para crear y borrar una base de datos, respectivamente
-        //System.out.println("Crear base de datos empleados: " + db.createDatabase("empleados"));
-        //System.out.println("Borrar base de datos empleados: " + db.deleteDatabase("empleados"));
+        // System.out.println("Crear base de datos empleados: " + db.createDatabase("empleados"));
+        //db.deleteDatabase("empleados");
+        //System.out.println("Borrar base de datos empleados.");
 
         // Crear las tablas:
-        /*
+
         String tablaDepartamentos = "CREATE TABLE departamentos ("
                 + "id SERIAL PRIMARY KEY,"
                 + "nombre VARCHAR(100) NOT NULL,"
@@ -31,7 +32,7 @@ public class Main {
                 + ")";
         System.out.println("Se ha creado la tabla 'departamentos': " + db.createTable(tablaDepartamentos));
         System.out.println("Se ha creado la tabla 'empleados': " + db.createTable(tablaEmpleados));
-        */
+
 
         // Estas líneas de abajo es para probar que funciona el método para borrar tablas
         //System.out.println("Se ha borrado la tabla 'departamentos': " + db.deleteTable("departamentos"));
@@ -39,7 +40,7 @@ public class Main {
 
         // Insertar elementos en las tablas **ATENCIÓN**: los elementos tipo double son declarados como tales
         // para evitar problemas en la conversión de tipos en el PreparedStatement
-        /*
+
         Object[][] nuevosDept = {
                 {"Desarrollo", 120000.0, 6000.0},
                 {"Sistemas", 150000.0, 21000.0},
@@ -50,9 +51,7 @@ public class Main {
                 {"Publicidad", 0.0, 1000.0}
         };
         System.out.println("Total de departamentos insertados: " + db.insertDept(nuevosDept));
-        */
 
-        /*
         Object[][] nuevosEmp = {
                 {"32481596F", "Aarón", "Rivero", "Gómez", 1},
                 {"Y5575632D", "Adela", "Salas", "Díaz", 2},
@@ -69,7 +68,7 @@ public class Main {
                 {"82635162B", "Juan Antonio", "Sáez", "Guerrero", null}
         };
         System.out.println("Total de empleados insertados: " + db.insertEmp(nuevosEmp));
-        */
+
 
         // 1 - Lista el primer apellido de todos los empleados.
         System.out.println("Primer apellido de todos los empleados:\n"
