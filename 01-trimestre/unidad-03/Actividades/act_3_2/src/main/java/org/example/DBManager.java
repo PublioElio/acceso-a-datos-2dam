@@ -18,6 +18,19 @@ public class DBManager {
         this.driver = driver;
     }
 
+//    UPDATE empleados
+//    SET salario = salario * 1.1
+//    WHERE nombre = 'Juan' AND apellido = 'Pérez';
+
+//    INSERT INTO empleados (nombre, apellido, salario) VALUES ('Juan', 'Pérez', 3000.00), ('María', 'Gómez', 3500.00), ('Carlos', 'López', 3200.00);
+
+//    CREATE TABLE empleados (
+//    id SERIAL PRIMARY KEY,
+//    nombre VARCHAR(100),
+//    apellido VARCHAR(100),
+//    salario NUMERIC(10, 2)
+//    );
+
     /**
      * Este método se conecta con la base de datos
      *
