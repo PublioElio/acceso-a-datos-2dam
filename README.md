@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="hibernate-spring-java.png" width="300"/>
+  <img src="hibernate-spring-java.png" width="500"/>
 </div>
 
 # Ejercicios de la asignatura Acceso a datos
