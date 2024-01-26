@@ -13,6 +13,9 @@ public class PaisesJPAEntity {
     @Column(name = "nombrePais", nullable = true, length = 100)
     private String nombrePais;
 
+    @Column(name = "continente", nullable = true, length = 50)
+    private String continente;
+
     public int getIdPais() {
         return idPais;
     }
