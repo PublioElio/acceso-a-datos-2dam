@@ -12,7 +12,7 @@ public class UsuariosJPAEntity {
     @Column(name = "idUsuario", nullable = false)
     private long idUsuario;
     @Basic
-    @Column(name = "nombreUsusario", nullable = true, length = 100)
+    @Column(name = "nombreUsusario", nullable = true, length = 48)
     private String nombreUsuario;
 
     @Basic
