@@ -1,16 +1,18 @@
-package org.example;
+package org.example.entity;
 
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "paises", schema = "public", catalog = "ACDATJPA")
 public class PaisesJPAEntity {
-    private int idPais;
-    private String nombrePais;
-
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "idPais", nullable = false)
+    private int idPais;
+    @Basic
+    @Column(name = "nombrePais", nullable = true, length = 100)
+    private String nombrePais;
+
     public int getIdPais() {
         return idPais;
     }
@@ -19,8 +21,6 @@ public class PaisesJPAEntity {
         this.idPais = idPais;
     }
 
-    @Basic
-    @Column(name = "nombrePais", nullable = true, length = 100)
     public String getNombrePais() {
         return nombrePais;
     }
