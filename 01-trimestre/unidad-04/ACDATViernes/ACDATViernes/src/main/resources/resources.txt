@@ -1,0 +1,2 @@
+https://dzone.com/articles/all-hibernate-annotations-mapping-annotations
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html
