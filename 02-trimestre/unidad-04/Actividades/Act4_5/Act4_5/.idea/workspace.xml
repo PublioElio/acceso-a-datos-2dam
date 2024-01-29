@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82f6499-0fa5-48c2-b032-533439b95639" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b3373d24-6ae5-4f57-8b75-2ea3b5614b4f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b3373d24-6ae5-4f57-8b75-2ea3b5614b4f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +85,7 @@
       <updated>1706563829125</updated>
       <workItem from="1706563830493" duration="2538000" />
       <workItem from="1706566381147" duration="1470000" />
+      <workItem from="1706568463741" duration="427000" />
     </task>
     <servers />
   </component>
