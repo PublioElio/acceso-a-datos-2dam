@@ -19,4 +19,12 @@ public class TelefonoJPAEntity {
     public TelefonoJPAEntity(String numTelefono){
         this.numTelefono = numTelefono;
     }
+
+    public PersonaJPAEntity getPersona() {
+        return persona;
+    }
+
+    public void setPersona(PersonaJPAEntity persona) {
+        this.persona = persona;
+    }
 }
