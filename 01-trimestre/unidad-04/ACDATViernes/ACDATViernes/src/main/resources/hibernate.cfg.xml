@@ -13,6 +13,8 @@
     <mapping class="org.example.entity.PaisesJPAEntity"/>
     <mapping class="org.example.entity.ContinentesJPAEntity"/>
     <mapping class="org.example.entity.UsuariosJPAEntity"/>
+    <mapping class="org.example.entity.TelefonoJPAEntity"/>
+    <mapping class="org.example.entity.PersonaJPAEntity"/>
     <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
 

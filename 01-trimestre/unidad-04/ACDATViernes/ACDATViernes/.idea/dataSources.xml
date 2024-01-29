@@ -8,5 +8,16 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/ACDATJPA</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="fd1cb21f-7a57-4b23-a393-6f2fa62d4d4b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Propietario/Documents/acceso-a-datos-2dam/01-trimestre/unidad-04/ACDATViernes/ACDATViernes/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/ACDATJPA</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
