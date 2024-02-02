@@ -1,0 +1,63 @@
+
+k	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÊÉ•üÿÿÿÿ
+k	java:S117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áğ„ûÿÿÿÿ
+f	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÉ=
+V
+java:S1854–"?Remove this useless assignment to local variable "datosVuelos".(£÷¢¨
+X
+java:S1854‘"BRemove this useless assignment to local variable "clientesVuelos".(ğ¢±|
+`
+java:S1854Š"IRemove this useless assignment to local variable "datosDestinosAgencias".(—Şºé
+[
+java:S1854…"ERemove this useless assignment to local variable "clientes_destinos".(êÉ=
+e
+java:S1854}"JRemove this useless assignment to local variable "datosClientes_destinos".(Áğ„ûÿÿÿÿ
+\
+java:S1854l"ARemove this useless assignment to local variable "datosDestinos".(¢ë€”şÿÿÿÿ
+\
+java:S1854a"ARemove this useless assignment to local variable "datosAgencias".(Â‡º§ıÿÿÿÿ
+W
+java:S18541"ARemove this useless assignment to local variable "datosClientes".(å„ŒÂ
+P
+java:S1854)":Remove this useless assignment to local variable "vuelos".(ÙºîÀ
+`
+java:S1854$"ERemove this useless assignment to local variable "destinos_agencias".(ÀÊÉ•üÿÿÿÿ
+W
+java:S1854"<Remove this useless assignment to local variable "agencias".(ÿ„şÛùÿÿÿÿ
+R
+java:S1854"<Remove this useless assignment to local variable "clientes".(à›ñĞ
+R
+java:S1854"<Remove this useless assignment to local variable "destinos".(ñá¬
+[
+java:S1854"@Remove this useless assignment to local variable "vistaCliente".(€Æ¯Ôüÿÿÿÿ
+L
+java:S1481"1Remove this unused "vistaCliente" local variable.(€Æ¯Ôüÿÿÿÿ
+C
+java:S1481"-Remove this unused "destinos" local variable.(ñá¬
+C
+java:S1481"-Remove this unused "clientes" local variable.(à›ñĞ
+H
+java:S1481"-Remove this unused "agencias" local variable.(ÿ„şÛùÿÿÿÿ
+Q
+java:S1481$"6Remove this unused "destinos_agencias" local variable.(ÀÊÉ•üÿÿÿÿ
+A
+java:S1481)"+Remove this unused "vuelos" local variable.(ÙºîÀ
+H
+java:S14811"2Remove this unused "datosClientes" local variable.(å„ŒÂ
+M
+java:S1481a"2Remove this unused "datosAgencias" local variable.(Â‡º§ıÿÿÿÿ
+M
+java:S1481l"2Remove this unused "datosDestinos" local variable.(¢ë€”şÿÿÿÿ
+V
+java:S1481}";Remove this unused "datosClientes_destinos" local variable.(Áğ„ûÿÿÿÿ
+L
+java:S1481…"6Remove this unused "clientes_destinos" local variable.(êÉ=
+Q
+java:S1481Š":Remove this unused "datosDestinosAgencias" local variable.(—Şºé
+I
+java:S1481‘"3Remove this unused "clientesVuelos" local variable.(ğ¢±|
+G
+java:S1481–"0Remove this unused "datosVuelos" local variable.(£÷¢¨
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(Û¹½
+R	java:S125¥"<This block of commented-out lines of code should be removed.(ÎµÙŒ
+W	java:S125­"<This block of commented-out lines of code should be removed.(¼—¼øÿÿÿÿ

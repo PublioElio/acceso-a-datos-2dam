@@ -1,0 +1,39 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢ó“
+y
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "agenciaList".(¢ó“
+v
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ûª
+v
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ûª
+z
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "agencia".(ƒ±®úüÿÿÿÿ
+w
+java:S1488%"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ðæ›Ë
+v
+java:S1488+"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ûª
+b
+java:S1130"MRemove the redundant 'java.sql.SQLException' thrown exception declaration(s).(Ž¤¥z
+F
+java:S1172"1Remove this unused method parameter "connection".(Ž¤¥z
+‰
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÂèÄÿÿÿÿÿ
+Y
+java:S1172">Remove these unused method parameters "connection", "agencia".(ÂèÄÿÿÿÿÿ
+‰
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Í‘äïùÿÿÿÿ
+Y
+java:S1172">Remove these unused method parameters "connection", "cliente".(Í‘äïùÿÿÿÿ
+„
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ë‹þË
+O
+java:S1172"9Remove these unused method parameters "connection", "id".(ë‹þË
+‰
+java:S1130$"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Œ¥²Êÿÿÿÿÿ
+T
+java:S1172$"9Remove these unused method parameters "connection", "id".(Œ¥²Êÿÿÿÿÿ
+„
+java:S1130*"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¬·Š²
+V
+java:S1172*"@Remove these unused method parameters "connection", "agenciaId".(¬·Š²

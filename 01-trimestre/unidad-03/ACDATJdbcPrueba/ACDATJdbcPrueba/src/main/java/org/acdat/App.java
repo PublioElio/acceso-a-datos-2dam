@@ -4,7 +4,6 @@ import org.acdat.jdbc.MiJDBC;
 import org.acdat.vista.VistaCliente;
 import org.acdat.vista.VistaVuelo;
 
-import java.nio.charset.MalformedInputException;
 import java.sql.SQLException;
 
 /**
