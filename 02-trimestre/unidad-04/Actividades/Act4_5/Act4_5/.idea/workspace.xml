@@ -5,26 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82f6499-0fa5-48c2-b032-533439b95639" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/dataSources/db426a25-6dd6-4f98-8135-c2fa6b34707c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/dataSources/db426a25-6dd6-4f98-8135-c2fa6b34707c/storage_v2/_src_/database/empleados.CBminA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/dataSources/db426a25-6dd6-4f98-8135-c2fa6b34707c/storage_v2/_src_/database/empleados.CBminA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/dataSources/db426a25-6dd6-4f98-8135-c2fa6b34707c/storage_v2/_src_/database/empleados.CBminA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/dataSources/db426a25-6dd6-4f98-8135-c2fa6b34707c/storage_v2/_src_/database/empleados.CBminA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Act4_5.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/0/0/002af94910ef0249fb02cca8f434f4b9b992a850" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/9/7/979272eeb4a736646dcced93263e6d9db93246ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/a/c/ac34fedb27101348c4d20caa9520e66978dab46d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/f/b/fbe0f302469443cbe1927a9a7ffc45bd4a508591" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/securityhotspotstore/0/0/002af94910ef0249fb02cca8f434f4b9b992a850" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/securityhotspotstore/9/7/979272eeb4a736646dcced93263e6d9db93246ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/securityhotspotstore/a/c/ac34fedb27101348c4d20caa9520e66978dab46d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/securityhotspotstore/f/b/fbe0f302469443cbe1927a9a7ffc45bd4a508591" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/CrudManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/EntradaTeclado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/ValidadorDNI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/dataSources/db426a25-6dd6-4f98-8135-c2fa6b34707c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/dataSources/db426a25-6dd6-4f98-8135-c2fa6b34707c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/dataSources/db426a25-6dd6-4f98-8135-c2fa6b34707c/storage_v2/_src_/database/empleados.CBminA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/dataSources/db426a25-6dd6-4f98-8135-c2fa6b34707c/storage_v2/_src_/database/empleados.CBminA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/entidades/DepartamentosEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/entidades/DepartamentosEntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/entidades/EmpleadosEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Act4_2/Act4_2/src/main/java/org/example/entidades/EmpleadosEntityJPA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="" />
       <recent name="org.example.entities" />
@@ -113,7 +119,7 @@
       <workItem from="1706876053320" duration="1726000" />
       <workItem from="1706901067481" duration="1874000" />
       <workItem from="1706910283799" duration="9132000" />
-      <workItem from="1706961933454" duration="11534000" />
+      <workItem from="1706961933454" duration="14625000" />
     </task>
     <servers />
   </component>

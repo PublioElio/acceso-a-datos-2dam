@@ -101,4 +101,16 @@ public class EmpleadosEntityJPA {
         result = 31 * result + (idDepartamento != null ? idDepartamento.hashCode() : 0);
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "EmpleadosEntityJPA{" +
+                "id=" + id +
+                ", nif='" + nif + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellido1='" + apellido1 + '\'' +
+                ", apellido2='" + apellido2 + '\'' +
+                ", idDepartamento=" + idDepartamento +
+                '}';
+    }
 }

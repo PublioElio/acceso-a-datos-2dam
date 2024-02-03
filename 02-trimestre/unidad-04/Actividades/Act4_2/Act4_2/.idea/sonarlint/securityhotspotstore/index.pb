@@ -7,3 +7,11 @@ o
 ?src/main/java/org/example/entidades/DepartamentosEntityJPA.java,e\f\ef5fc84814b8a8545127c126bc2037ee6a8bdfff
 k
 ;src/main/java/org/example/entidades/EmpleadosEntityJPA.java,e\6\e68dadcd2a7b46f9ebd997b77d69a1c884db31e1
+S
+#src/main/java/org/example/Crud.java,0\0\002af94910ef0249fb02cca8f434f4b9b992a850
+Z
+*src/main/java/org/example/CrudManager.java,9\7\979272eeb4a736646dcced93263e6d9db93246ec
+]
+-src/main/java/org/example/EntradaTeclado.java,f\b\fbe0f302469443cbe1927a9a7ffc45bd4a508591
+[
++src/main/java/org/example/ValidadorDNI.java,a\c\ac34fedb27101348c4d20caa9520e66978dab46d
