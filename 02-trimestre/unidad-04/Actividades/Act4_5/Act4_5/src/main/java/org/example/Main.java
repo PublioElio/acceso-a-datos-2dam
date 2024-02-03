@@ -1,26 +1,33 @@
 package org.example;
 
-import org.example.entities.Articulo;
-import org.example.entities.Comprador;
-import org.example.entities.User;
-import org.example.entities.Venta;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import org.example.entities.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Este es el main del ejercicio
  */
 public class Main {
+    private static String TEXTO_DEFAULT = "Elija una opción válida";
+
     public static void main(String[] args) {
+
         String textoMenu = "------------Act 4.5. Hibernate Relaciones JPA------------\n" +
                 "Elija una opción:\n" +
                 "1. Probar clase User\n" +
@@ -33,7 +40,15 @@ public class Main {
                 "Elija una opción:\n" +
                 "1. Introducir un usuario:\n" +
                 "2. Mostrar tabla usuarios:\n" +
-                "3. Salir de clase User\n" +
+                "3. Volver al menú principal\n" +
+                "-> ";
+
+        String textoMenuConcesionario = "------------ CLASES CONCESIONARIO/VEHÍCULO ------------\n" +
+                "Elija una opción:\n" +
+                "1. Introducir concesionario:\n" +
+                "2. Introducir vehículo:\n" +
+                "3. Mostrar relación concesionarios/vehículos:\n" +
+                "4. Volver al menú principal\n" +
                 "-> ";
 
         @SuppressWarnings("unused")
@@ -57,11 +72,24 @@ public class Main {
                 switch (opcion) {
                     case 1 -> opcion = probarClaseUser(textoMenuUser, session, transaction);
                     case 2 -> {
-                        System.out.println("------------ CLASE CONCESIONARIO/VEHÍCULO ------------");
+                        System.out.println("------------ CLASES CONCESIONARIO/VEHÍCULO ------------");
+                        do {
+                            opcion = EntradaTeclado.pedirEntero(textoMenuConcesionario, 1, 4);
+                            switch (opcion) {
+                                case 1 -> introducirConcesionario(Session session, Transaction transaction);
+                                case 2 ->
+                                case 3 ->
+                                case 4 ->
+                                default -> System.out.println(TEXTO_DEFAULT);
+
+                            }
+
+                        } while (opcion != 4);
+                        opcion = 2;
                     }
                     case 3 -> mostrarCasesCompradorArtVenta(session);
                     case 4 -> System.out.println("------------ SALIENDO DE LA ACTIVIDAD ------------");
-                    default -> System.out.println("Elija una opción válida");
+                    default -> System.out.println(TEXTO_DEFAULT);
                 }
             } while (opcion != 4);
 
@@ -94,7 +122,7 @@ public class Main {
                 case 1 -> introducirUsuario(session, transaction);
                 case 2 -> consultarUsuarios(session);
                 case 3 -> System.out.println("Saliendo de clase User");
-                default -> System.out.println("Escoja una opción válida");
+                default -> System.out.println(TEXTO_DEFAULT);
             }
         } while (opcion != 3);
         opcion = 1;
@@ -145,7 +173,7 @@ public class Main {
         return esFechaValida;
     }
 
-    private static void listarArticulos(Session session){
+    private static void listarArticulos(Session session) {
         String hql = "FROM Articulo ";
         Query query = session.createQuery(hql);
         List<Articulo> listaArticulos = query.list();
@@ -154,7 +182,7 @@ public class Main {
         }
     }
 
-    private static void listarCompradores(Session session){
+    private static void listarCompradores(Session session) {
         String hql = "FROM Comprador ";
         Query query = session.createQuery(hql);
         List<Comprador> listaCompradores = query.list();
@@ -162,7 +190,8 @@ public class Main {
             System.out.println(comprador.toString());
         }
     }
-    private static void listarVentas(Session session){
+
+    private static void listarVentas(Session session) {
         String hql = "FROM Venta ";
         Query query = session.createQuery(hql);
         List<Venta> listaVentas = query.list();
@@ -170,4 +199,42 @@ public class Main {
             System.out.println(venta.toString());
         }
     }
+
+    private static void introducirConcesionario(Session session, Transaction transaction) {
+        Concesionario concesionario = new Concesionario();
+        String nombreComercial, nombreEmpresarial, direccionConcesionario, email,
+                textoCampoVacio = "Este campo no puede estar vacío";
+        int numTrabajadores;
+        List<Vehiculo> vehiculos;
+
+        do {
+            nombreComercial = EntradaTeclado.pedirCadena("Introduzca un nombre comercial: ");
+            if (nombreComercial.isEmpty()) {
+                System.out.println(textoCampoVacio);
+            }
+        } while (nombreComercial.isEmpty());
+        nombreEmpresarial = EntradaTeclado.pedirCadena("Introduzca un nombre empresarial: ");
+        do {
+            direccionConcesionario = EntradaTeclado.pedirCadena("Introduzca una dirección: ");
+            if (direccionConcesionario.isEmpty()) {
+                System.out.println(textoCampoVacio);
+            }
+        } while (direccionConcesionario.isEmpty());
+        do {
+            email = EntradaTeclado.pedirCadena("Introduzca un email válido: ");
+        } while (!EmailValidator.isValidEmail(email));
+
+        do {
+            fechaCumpleanyosString = EntradaTeclado.pedirCadena("Introduzca la fecha de nacimiento, formato dd/MM/aa: ");
+        } while (!esFormatoFechaValido(fechaCumpleanyosString));
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yy");
+        Date fechaCumpleanyos = sdf.parse(fechaCumpleanyosString);
+        usuario.setName(nombre);
+        usuario.setBirthDate(fechaCumpleanyos);
+        session.persist(usuario);
+        session.flush();
+        transaction.commit();
+
+    }
+
 }

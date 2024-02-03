@@ -14,6 +14,9 @@
     <mapping class="org.example.entities.Comprador"/>
     <mapping class="org.example.entities.Articulo"/>
     <mapping class="org.example.entities.Venta"/>
+    <mapping class="org.example.entities.Vehiculo"/>
+    <mapping class="org.example.entities.Concesionario"/>
+    
     <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
 

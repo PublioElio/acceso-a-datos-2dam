@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.51">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>943</IntrospectionStateNumber>
+      <IntrospectionStateNumber>948</IntrospectionStateNumber>
       <ServerVersion>16.1</ServerVersion>
       <StartupTime>1706632677</StartupTime>
       <TimeZones>true ACDT
@@ -800,7 +800,7 @@ false Zulu
 14643||10|C|G
 14643||-9223372036854775808|U|G
 14643||10|U|G</Grants>
-      <IntrospectionStateNumber>943</IntrospectionStateNumber>
+      <IntrospectionStateNumber>948</IntrospectionStateNumber>
       <ObjectId>24576</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4232,8 +4232,8 @@ false Zulu
     <schema id="266" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>943</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2024-02-03.00:08:09</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>948</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2024-02-03.12:37:56</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>524</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -4282,19 +4282,31 @@ false Zulu
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="273" parent="266" name="users">
+    <table id="273" parent="266" name="concesionario">
+      <ObjectId>32799</ObjectId>
+      <StateNumber>947</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="274" parent="266" name="users">
       <ObjectId>24578</ObjectId>
       <StateNumber>919</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="274" parent="266" name="venta">
+    <table id="275" parent="266" name="vehiculo">
+      <ObjectId>32806</ObjectId>
+      <StateNumber>947</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="276" parent="266" name="venta">
       <ObjectId>32783</ObjectId>
       <StateNumber>936</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="275" parent="271" name="idarticulo">
+    <column id="277" parent="271" name="idarticulo">
       <DasType>integer|0s</DasType>
       <DefaultExpression>nextval(&apos;articulos_idarticulo_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4303,19 +4315,19 @@ false Zulu
       <SequenceId>32768</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="276" parent="271" name="descripcion">
+    <column id="278" parent="271" name="descripcion">
       <DasType>varchar(100)|0s</DasType>
       <Position>2</Position>
       <StateNumber>933</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="277" parent="271" name="precioventa">
+    <column id="279" parent="271" name="precioventa">
       <DasType>bigint|0s</DasType>
       <Position>3</Position>
       <StateNumber>933</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="278" parent="271" name="articulos_pkey">
+    <index id="280" parent="271" name="articulos_pkey">
       <ColNames>idarticulo</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32773</ObjectId>
@@ -4324,14 +4336,14 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="279" parent="271" name="articulos_pkey">
+    <key id="281" parent="271" name="articulos_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32774</ObjectId>
       <Primary>1</Primary>
       <StateNumber>933</StateNumber>
       <UnderlyingIndexId>32773</UnderlyingIndexId>
     </key>
-    <column id="280" parent="272" name="idcomprador">
+    <column id="282" parent="272" name="idcomprador">
       <DasType>integer|0s</DasType>
       <DefaultExpression>nextval(&apos;compradores_idcomprador_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4340,19 +4352,19 @@ false Zulu
       <SequenceId>32775</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="281" parent="272" name="nombre">
+    <column id="283" parent="272" name="nombre">
       <DasType>varchar(48)|0s</DasType>
       <Position>2</Position>
       <StateNumber>934</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="282" parent="272" name="telefono">
+    <column id="284" parent="272" name="telefono">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
       <StateNumber>934</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="283" parent="272" name="compradores_pkey">
+    <index id="285" parent="272" name="compradores_pkey">
       <ColNames>idcomprador</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32780</ObjectId>
@@ -4361,14 +4373,68 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="284" parent="272" name="compradores_pkey">
+    <key id="286" parent="272" name="compradores_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32781</ObjectId>
       <Primary>1</Primary>
       <StateNumber>934</StateNumber>
       <UnderlyingIndexId>32780</UnderlyingIndexId>
     </key>
-    <column id="285" parent="273" name="idusuario">
+    <column id="287" parent="273" name="nombrecomercial">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>945</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="288" parent="273" name="direccionconcesionario">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>945</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="289" parent="273" name="email">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>945</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="290" parent="273" name="nombreempresarial">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>945</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="291" parent="273" name="numtrabajadores">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StateNumber>945</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="292" parent="273" name="concesionario_pkey">
+      <ColNames>nombrecomercial</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32804</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>945</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="293" parent="273" name="concesionario_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32805</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>945</StateNumber>
+      <UnderlyingIndexId>32804</UnderlyingIndexId>
+    </key>
+    <column id="294" parent="274" name="idusuario">
       <DasType>bigint|0s</DasType>
       <DefaultExpression>nextval(&apos;users_idusuario_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4377,19 +4443,19 @@ false Zulu
       <SequenceId>24577</SequenceId>
       <TypeId>20</TypeId>
     </column>
-    <column id="286" parent="273" name="fechacumpleanyos">
+    <column id="295" parent="274" name="fechacumpleanyos">
       <DasType>timestamp(6)|0s</DasType>
       <Position>2</Position>
       <StateNumber>919</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="287" parent="273" name="nombre">
+    <column id="296" parent="274" name="nombre">
       <DasType>varchar(48)|0s</DasType>
       <Position>3</Position>
       <StateNumber>919</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="288" parent="273" name="users_pkey">
+    <index id="297" parent="274" name="users_pkey">
       <ColNames>idusuario</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24582</ObjectId>
@@ -4398,14 +4464,85 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="289" parent="273" name="users_pkey">
+    <key id="298" parent="274" name="users_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24583</ObjectId>
       <Primary>1</Primary>
       <StateNumber>919</StateNumber>
       <UnderlyingIndexId>24582</UnderlyingIndexId>
     </key>
-    <column id="290" parent="274" name="id_venta">
+    <column id="299" parent="275" name="matricula">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>946</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="300" parent="275" name="marca">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>946</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="301" parent="275" name="color">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>946</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="302" parent="275" name="fechamatriculacion">
+      <DasType>timestamp(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>946</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="303" parent="275" name="modelo">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StateNumber>946</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="304" parent="275" name="nombrecomercial">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+      <StateNumber>946</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <foreign-key id="305" parent="275" name="nombre_comercial_fk">
+      <ColNames>nombrecomercial</ColNames>
+      <ObjectId>32813</ObjectId>
+      <StateNumber>947</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>32799</RefTableId>
+    </foreign-key>
+    <index id="306" parent="275" name="vehiculo_pkey">
+      <ColNames>marca
+matricula</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32811</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>946</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>100
+100</CollationIds>
+      <CollationNames>default
+default</CollationNames>
+      <CollationParentNames>pg_catalog
+pg_catalog</CollationParentNames>
+    </index>
+    <key id="307" parent="275" name="vehiculo_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32812</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>946</StateNumber>
+      <UnderlyingIndexId>32811</UnderlyingIndexId>
+    </key>
+    <column id="308" parent="276" name="id_venta">
       <DasType>bigint|0s</DasType>
       <DefaultExpression>nextval(&apos;venta_id_venta_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4414,39 +4551,39 @@ false Zulu
       <SequenceId>32782</SequenceId>
       <TypeId>20</TypeId>
     </column>
-    <column id="291" parent="274" name="unidades_vendidas">
+    <column id="309" parent="276" name="unidades_vendidas">
       <DasType>integer|0s</DasType>
       <Position>2</Position>
       <StateNumber>935</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="292" parent="274" name="id_articulo">
+    <column id="310" parent="276" name="id_articulo">
       <DasType>integer|0s</DasType>
       <Position>3</Position>
       <StateNumber>935</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="293" parent="274" name="id_comprador">
+    <column id="311" parent="276" name="id_comprador">
       <DasType>integer|0s</DasType>
       <Position>4</Position>
       <StateNumber>935</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <foreign-key id="294" parent="274" name="fklnw4dp0gglum20cl9oscinjpb">
+    <foreign-key id="312" parent="276" name="fklnw4dp0gglum20cl9oscinjpb">
       <ColNames>id_articulo</ColNames>
       <ObjectId>32789</ObjectId>
       <StateNumber>936</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
       <RefTableId>32769</RefTableId>
     </foreign-key>
-    <foreign-key id="295" parent="274" name="fktiei0orhsknq713fpdhj2swff">
+    <foreign-key id="313" parent="276" name="fktiei0orhsknq713fpdhj2swff">
       <ColNames>id_comprador</ColNames>
       <ObjectId>32794</ObjectId>
       <StateNumber>937</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
       <RefTableId>32776</RefTableId>
     </foreign-key>
-    <index id="296" parent="274" name="venta_pkey">
+    <index id="314" parent="276" name="venta_pkey">
       <ColNames>id_venta</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32787</ObjectId>
@@ -4455,7 +4592,7 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="297" parent="274" name="venta_pkey">
+    <key id="315" parent="276" name="venta_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32788</ObjectId>
       <Primary>1</Primary>
