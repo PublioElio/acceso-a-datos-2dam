@@ -11,24 +11,24 @@ public class Vehiculo {
 
     // La anotación @Id señala que este atributo es la clave primaria
     @Id
-    @Column(name = "marca", nullable = false)
+    @Column(name = "marca")
     private String marca;
 
-    @Column(name = "modelo", nullable = false)
+    @Column(name = "modelo")
     private String modelo;
 
-    @Column(name = "color", nullable = false)
+    @Column(name = "color")
     private String color;
 
     @Id
     @Column(name = "matricula", nullable = false)
     private String matricula;
 
-    @Column(name = "fechaMatriculacion", nullable = false)
+    @Column(name = "fechaMatriculacion")
     private Date fechaMatriculacion;
 
     @ManyToOne
-    @JoinColumn(name = "nombreComercial", foreignKey = @ForeignKey(name="NOMBRE_COMERCIAL_FK"))
+    @JoinColumn(name = "nombreComercial", foreignKey = @ForeignKey(name="NOMBRE_COMERCIAL_FK"), nullable = false)
     private Concesionario concesionario;
 
     public Vehiculo() {
@@ -74,6 +74,14 @@ public class Vehiculo {
         this.fechaMatriculacion = fechaMatriculacion;
     }
 
+    public Concesionario getConcesionario() {
+        return concesionario;
+    }
+
+    public void setConcesionario(Concesionario concesionario) {
+        this.concesionario = concesionario;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -95,6 +103,7 @@ public class Vehiculo {
                 ", color='" + color + '\'' +
                 ", matricula='" + matricula + '\'' +
                 ", fechaMatriculacion=" + fechaMatriculacion +
+                ", concesionario=" + concesionario.getNombreComercial() +
                 '}';
     }
 }

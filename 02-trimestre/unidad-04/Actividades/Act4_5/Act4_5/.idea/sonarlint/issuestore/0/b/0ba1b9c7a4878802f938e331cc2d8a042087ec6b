@@ -1,0 +1,57 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8É³ùşÖ1
+R
+java:S3740«"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8É³ùşÖ1
+R
+java:S3740´"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8É³ùşÖ1
+R
+java:S3740½"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8Ê³ùşÖ1
+R
+java:S3740†"/Provide the parametrized type for this generic.(ş•ëûıÿÿÿÿ8Ê³ùşÖ1
+R
+java:S3740”"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8Ê³ùşÖ1
+g
+java:S1192"IDefine a constant instead of duplicating this literal "dd/MM/yy" 3 times.(€È€8Ë³ùşÖ1
+x
+java:S39237"[Remove this conditional structure or edit its code blocks so that they're not all the same.(·…‹Ğ8µµùşÖ1
+L	java:S1068"+Replace this use of System.out by a logger.( ¿˜¾ûÿÿÿÿ8µµùşÖ1
+L	java:S106:"+Replace this use of System.out by a logger.( ¿˜¾ûÿÿÿÿ8µµùşÖ1
+G	java:S106E"+Replace this use of System.out by a logger.(Œ¤×†8µµùşÖ1
+L	java:S106F"+Replace this use of System.out by a logger.(íò†³şÿÿÿÿ8¶µùşÖ1
+O
+java:S1172X"2Remove this unused method parameter "transaction".(²Ã‘8ëËƒÿÖ1
+G	java:S106`"+Replace this use of System.out by a logger.(éõë8·µùşÖ1
+L	java:S106a"+Replace this use of System.out by a logger.(íò†³şÿÿÿÿ8·µùşÖ1
+F	java:S106h"+Replace this use of System.out by a logger.(¾Šö8·µùşÖ1
+L	java:S106u"+Replace this use of System.out by a logger.(ÿÆ¿şÿÿÿÿ8¸µùşÖ1
+L	java:S106v"+Replace this use of System.out by a logger.(íò†³şÿÿÿÿ8¸µùşÖ1
+U
+java:S1874"3Remove this use of "createQuery"; it is deprecated.(¬œ‘âşÿÿÿÿ8¹µùşÖ1
+H	java:S106‚"+Replace this use of System.out by a logger.(éÜ¸Ê8¹µùşÖ1
+[
+java:S1854¡"8Remove this useless assignment to local variable "date".(© üùÿÿÿÿ8¼µùşÖ1
+L
+java:S1481¡")Remove this unused "date" local variable.(© üùÿÿÿÿ8¼µùşÖ1
+H	java:S106£"+Replace this use of System.out by a logger.(­Éª–8½µùşÖ1
+V
+java:S1874«"3Remove this use of "createQuery"; it is deprecated.(¬œ‘âşÿÿÿÿ8½µùşÖ1
+M	java:S106®"+Replace this use of System.out by a logger.(—áÉíıÿÿÿÿ8½µùşÖ1
+V
+java:S1874´"3Remove this use of "createQuery"; it is deprecated.(¬œ‘âşÿÿÿÿ8½µùşÖ1
+M	java:S106·"+Replace this use of System.out by a logger.(òòŠ–ÿÿÿÿÿ8¾µùşÖ1
+V
+java:S1874½"3Remove this use of "createQuery"; it is deprecated.(¬œ‘âşÿÿÿÿ8¾µùşÖ1
+M	java:S106À"+Replace this use of System.out by a logger.(É½µÉøÿÿÿÿ8¾µùşÖ1
+M	java:S106Í"+Replace this use of System.out by a logger.(Ğêòÿÿÿÿÿ8¿µùşÖ1
+M	java:S106Õ"+Replace this use of System.out by a logger.(Ğêòÿÿÿÿÿ8ÀµùşÖ1
+u
+java:S3776ã"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ù‡İŞùÿÿÿÿ8ÀµùşÖ1
+H	java:S106û"+Replace this use of System.out by a logger.(èãşî8ÂµùşÖ1
+V
+java:S1874†"3Remove this use of "createQuery"; it is deprecated.(ş•ëûıÿÿÿÿ8ÃµùşÖ1
+M	java:S106Š"+Replace this use of System.out by a logger.(äüÎÅıÿÿÿÿ8ÃµùşÖ1
+H	java:S106"+Replace this use of System.out by a logger.(¯¹‘õ8ÃµùşÖ1
+V
+java:S1874”"3Remove this use of "createQuery"; it is deprecated.(¬œ‘âşÿÿÿÿ8ÄµùşÖ1
+H	java:S106—"+Replace this use of System.out by a logger.(ş‚­£8ÄµùşÖ1

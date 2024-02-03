@@ -87,12 +87,24 @@ public class Concesionario {
 
     @Override
     public String toString() {
-        return "Concesionario{" +
-                "nombreComercial='" + nombreComercial + '\'' +
-                ", nombreEmpresarial='" + nombreEmpresarial + '\'' +
-                ", direccionConcesionario='" + direccionConcesionario + '\'' +
-                ", numTrabajadores=" + numTrabajadores +
-                ", email='" + email + '\'' +
-                '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("Concesionario{");
+        sb.append("nombreComercial='").append(nombreComercial).append('\'');
+        sb.append(", nombreEmpresarial='").append(nombreEmpresarial).append('\'');
+        sb.append(", direccionConcesionario='").append(direccionConcesionario).append('\'');
+        sb.append(", numTrabajadores=").append(numTrabajadores);
+        sb.append(", email='").append(email).append('\'');
+        sb.append(", vehiculos=[");
+        if (vehiculos != null) {
+            for (int i = 0; i < vehiculos.size(); i++) {
+                sb.append(vehiculos.get(i));
+                if (i < vehiculos.size() - 1) {
+                    sb.append(", ");
+                }
+            }
+        }
+        sb.append("]}");
+        return sb.toString();
     }
+
 }
