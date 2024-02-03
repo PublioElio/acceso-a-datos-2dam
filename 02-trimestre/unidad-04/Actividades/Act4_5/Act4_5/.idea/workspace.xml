@@ -5,55 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82f6499-0fa5-48c2-b032-533439b95639" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/sonarlint/issuestore/6/e/6e39495517b9904fe29dcdb2ef6a777c8f11bd54" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/sonarlint/securityhotspotstore/6/e/6e39495517b9904fe29dcdb2ef6a777c8f11bd54" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/dataSources/13591fff-3927-49e5-8ebc-3a33021ac07b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/dataSources/13591fff-3927-49e5-8ebc-3a33021ac07b/storage_v2/_src_/database/TuViajeExamen.0FKpig.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/dataSources/13591fff-3927-49e5-8ebc-3a33021ac07b/storage_v2/_src_/database/TuViajeExamen.0FKpig/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/dataSources/13591fff-3927-49e5-8ebc-3a33021ac07b/storage_v2/_src_/database/TuViajeExamen.0FKpig/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/dataSources/13591fff-3927-49e5-8ebc-3a33021ac07b/storage_v2/_src_/database/TuViajeExamen.0FKpig/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/issuestore/1/3/130ef09dbbedb2fa743ac49649d8a4c2b5e30ccd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/issuestore/2/c/2ca589f065b7367b0fd5de180fa996613a8d93e1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/issuestore/9/f/9f3ebed534d0b44eecf0221d7da0ad85eae33a46" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/issuestore/c/8/c8d0c9b2d573d8c6fb16494beb6da0d0c846dde1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/securityhotspotstore/1/3/130ef09dbbedb2fa743ac49649d8a4c2b5e30ccd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/securityhotspotstore/2/c/2ca589f065b7367b0fd5de180fa996613a8d93e1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/securityhotspotstore/9/f/9f3ebed534d0b44eecf0221d7da0ad85eae33a46" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/securityhotspotstore/c/8/c8d0c9b2d573d8c6fb16494beb6da0d0c846dde1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/src/main/java/entidades/Agencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/src/main/java/entidades/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/src/main/java/entidades/Vuelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../simulacro_examen/simulacro_examen/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-02/Examen-2023-10-23/.idea/Examen-2023-10-23.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-02/Examen-2023-10-23/.idea/Examen-2023-10-23.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-02/Examen-2023-10-23/eje1-Adriano-DiazBenitez/eje1-Adriano-DiazBenitez.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-02/Examen-2023-10-23/eje1-Adriano-DiazBenitez/eje1-Adriano-DiazBenitez.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-02/Examen-2023-10-23/eje2-Adriano-DiazBenitez/eje2-Adriano-DiazBenitez.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-02/Examen-2023-10-23/eje2-Adriano-DiazBenitez/eje2-Adriano-DiazBenitez.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/src/main/java/org/acdat/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba/src/main/java/org/acdat/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/PruebaJDBC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-03/PruebaJDBC/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/ACDATViernes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/ACDATViernes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/sonarlint/issuestore/1/0/102bbdab7d0cc57c6e63ef5244e8984e951608e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/sonarlint/securityhotspotstore/1/0/102bbdab7d0cc57c6e63ef5244e8984e951608e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4adad1a588dbd3bca883c681e0b96ba15e98a5e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7399d7a2b2cab90d601d1e495dbbcdf32e5c2d8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb097c8c8bd294b21fda161130eb1bc9d94915e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbe0f302469443cbe1927a9a7ffc45bd4a508591" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/a/4adad1a588dbd3bca883c681e0b96ba15e98a5e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c7399d7a2b2cab90d601d1e495dbbcdf32e5c2d8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/eb097c8c8bd294b21fda161130eb1bc9d94915e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/b/fbe0f302469443cbe1927a9a7ffc45bd4a508591" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EntradaTeclado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Articulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Comprador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Venta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/sonarlint/issuestore/2/4/2450e606996ca17b3ccac5ad32ea69fc20f14d49" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/sonarlint/issuestore/2/4/2450e606996ca17b3ccac5ad32ea69fc20f14d49" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../01-trimestre/unidad-04/ACDATViernes/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b3373d24-6ae5-4f57-8b75-2ea3b5614b4f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b3373d24-6ae5-4f57-8b75-2ea3b5614b4f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b3373d24-6ae5-4f57-8b75-2ea3b5614b4f/storage_v2/_src_/database/ExamenDiciembre.Wh-tnw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b3373d24-6ae5-4f57-8b75-2ea3b5614b4f/storage_v2/_src_/database/ExamenDiciembre.Wh-tnw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +72,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Propietario/Documents/acceso-a-datos-2dam/01-trimestre/unidad-03/ACDATJdbcPrueba/ACDATJdbcPrueba",
+    "last_opened_file_path": "D:/Cursos/DAM/Belén/Segundo/acceso-a-datos/01-trimestre/unidad-02/act02_05_serializacion/src/Main.java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,14 +92,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="org.example.entities" />
       <recent name="" />
+      <recent name="org.example.entities" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
       </set>
     </attachedChunks>
   </component>
@@ -140,6 +119,8 @@
       <workItem from="1706719768045" duration="4000" />
       <workItem from="1706811285538" duration="15000" />
       <workItem from="1706876053320" duration="1726000" />
+      <workItem from="1706901067481" duration="1874000" />
+      <workItem from="1706910283799" duration="8985000" />
     </task>
     <servers />
   </component>

@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.51">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>920</IntrospectionStateNumber>
+      <IntrospectionStateNumber>943</IntrospectionStateNumber>
       <ServerVersion>16.1</ServerVersion>
-      <StartupTime>1706552134</StartupTime>
+      <StartupTime>1706632677</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -800,67 +800,67 @@ false Zulu
 14643||10|C|G
 14643||-9223372036854775808|U|G
 14643||10|U|G</Grants>
-      <IntrospectionStateNumber>920</IntrospectionStateNumber>
+      <IntrospectionStateNumber>943</IntrospectionStateNumber>
       <ObjectId>24576</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
-    <database id="3" parent="1" name="postgres">
+    <database id="3" parent="1" name="InstitutoFP">
+      <ObjectId>16398</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="4" parent="1" name="empleados">
+      <ObjectId>16448</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="5" parent="1" name="postgres">
       <Comment>default administrative connection database</Comment>
       <ObjectId>5</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
-    <database id="4" parent="1" name="InstitutoFP">
-      <ObjectId>16398</ObjectId>
-      <OwnerName>postgres</OwnerName>
-    </database>
-    <database id="5" parent="1" name="empleados">
-      <ObjectId>16448</ObjectId>
-      <OwnerName>postgres</OwnerName>
-    </database>
-    <role id="6" parent="1" name="pg_database_owner">
+    <role id="6" parent="1" name="pg_checkpoint">
+      <ObjectId>4544</ObjectId>
+    </role>
+    <role id="7" parent="1" name="pg_create_subscription">
+      <ObjectId>6304</ObjectId>
+    </role>
+    <role id="8" parent="1" name="pg_database_owner">
       <ObjectId>6171</ObjectId>
     </role>
-    <role id="7" parent="1" name="pg_read_all_data">
-      <ObjectId>6181</ObjectId>
+    <role id="9" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
     </role>
-    <role id="8" parent="1" name="pg_write_all_data">
-      <ObjectId>6182</ObjectId>
-    </role>
-    <role id="9" parent="1" name="pg_monitor">
+    <role id="10" parent="1" name="pg_monitor">
       <ObjectId>3373</ObjectId>
       <RoleGrants>3374
 3375
 3377</RoleGrants>
     </role>
-    <role id="10" parent="1" name="pg_read_all_settings">
+    <role id="11" parent="1" name="pg_read_all_data">
+      <ObjectId>6181</ObjectId>
+    </role>
+    <role id="12" parent="1" name="pg_read_all_settings">
       <ObjectId>3374</ObjectId>
     </role>
-    <role id="11" parent="1" name="pg_read_all_stats">
+    <role id="13" parent="1" name="pg_read_all_stats">
       <ObjectId>3375</ObjectId>
     </role>
-    <role id="12" parent="1" name="pg_stat_scan_tables">
-      <ObjectId>3377</ObjectId>
-    </role>
-    <role id="13" parent="1" name="pg_read_server_files">
+    <role id="14" parent="1" name="pg_read_server_files">
       <ObjectId>4569</ObjectId>
     </role>
-    <role id="14" parent="1" name="pg_write_server_files">
-      <ObjectId>4570</ObjectId>
-    </role>
-    <role id="15" parent="1" name="pg_execute_server_program">
-      <ObjectId>4571</ObjectId>
-    </role>
-    <role id="16" parent="1" name="pg_signal_backend">
+    <role id="15" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
     </role>
-    <role id="17" parent="1" name="pg_checkpoint">
-      <ObjectId>4544</ObjectId>
+    <role id="16" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
     </role>
-    <role id="18" parent="1" name="pg_use_reserved_connections">
+    <role id="17" parent="1" name="pg_use_reserved_connections">
       <ObjectId>4550</ObjectId>
     </role>
-    <role id="19" parent="1" name="pg_create_subscription">
-      <ObjectId>6304</ObjectId>
+    <role id="18" parent="1" name="pg_write_all_data">
+      <ObjectId>6182</ObjectId>
+    </role>
+    <role id="19" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
     </role>
     <role id="20" parent="1" name="postgres">
       <BypassRls>1</BypassRls>
@@ -4232,13 +4232,29 @@ false Zulu
     <schema id="266" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>920</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2024-01-29.22:06:51</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>943</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2024-02-03.00:08:09</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>524</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
-    <sequence id="267" parent="266" name="users_idusuario_seq">
+    <sequence id="267" parent="266" name="articulos_idarticulo_seq">
+      <DasType>integer|0s</DasType>
+      <ObjectId>32768</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>933</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="268" parent="266" name="compradores_idcomprador_seq">
+      <DasType>integer|0s</DasType>
+      <ObjectId>32775</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>934</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="269" parent="266" name="users_idusuario_seq">
       <DasType>bigint|0s</DasType>
       <ObjectId>24577</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4246,13 +4262,113 @@ false Zulu
       <StateNumber>919</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <table id="268" parent="266" name="users">
+    <sequence id="270" parent="266" name="venta_id_venta_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>32782</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>935</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <table id="271" parent="266" name="articulos">
+      <ObjectId>32769</ObjectId>
+      <StateNumber>936</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="272" parent="266" name="compradores">
+      <ObjectId>32776</ObjectId>
+      <StateNumber>937</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="273" parent="266" name="users">
       <ObjectId>24578</ObjectId>
       <StateNumber>919</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="269" parent="268" name="idusuario">
+    <table id="274" parent="266" name="venta">
+      <ObjectId>32783</ObjectId>
+      <StateNumber>936</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <column id="275" parent="271" name="idarticulo">
+      <DasType>integer|0s</DasType>
+      <DefaultExpression>nextval(&apos;articulos_idarticulo_seq&apos;::regclass)</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>933</StateNumber>
+      <SequenceId>32768</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="276" parent="271" name="descripcion">
+      <DasType>varchar(100)|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>933</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="277" parent="271" name="precioventa">
+      <DasType>bigint|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>933</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="278" parent="271" name="articulos_pkey">
+      <ColNames>idarticulo</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32773</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>933</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="279" parent="271" name="articulos_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32774</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>933</StateNumber>
+      <UnderlyingIndexId>32773</UnderlyingIndexId>
+    </key>
+    <column id="280" parent="272" name="idcomprador">
+      <DasType>integer|0s</DasType>
+      <DefaultExpression>nextval(&apos;compradores_idcomprador_seq&apos;::regclass)</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>934</StateNumber>
+      <SequenceId>32775</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="281" parent="272" name="nombre">
+      <DasType>varchar(48)|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>934</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="282" parent="272" name="telefono">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>934</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="283" parent="272" name="compradores_pkey">
+      <ColNames>idcomprador</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32780</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>934</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="284" parent="272" name="compradores_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32781</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>934</StateNumber>
+      <UnderlyingIndexId>32780</UnderlyingIndexId>
+    </key>
+    <column id="285" parent="273" name="idusuario">
       <DasType>bigint|0s</DasType>
       <DefaultExpression>nextval(&apos;users_idusuario_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4261,19 +4377,19 @@ false Zulu
       <SequenceId>24577</SequenceId>
       <TypeId>20</TypeId>
     </column>
-    <column id="270" parent="268" name="fechacumpleanyos">
+    <column id="286" parent="273" name="fechacumpleanyos">
       <DasType>timestamp(6)|0s</DasType>
       <Position>2</Position>
       <StateNumber>919</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="271" parent="268" name="nombre">
+    <column id="287" parent="273" name="nombre">
       <DasType>varchar(48)|0s</DasType>
       <Position>3</Position>
       <StateNumber>919</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="272" parent="268" name="users_pkey">
+    <index id="288" parent="273" name="users_pkey">
       <ColNames>idusuario</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24582</ObjectId>
@@ -4282,12 +4398,69 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="273" parent="268" name="users_pkey">
+    <key id="289" parent="273" name="users_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24583</ObjectId>
       <Primary>1</Primary>
       <StateNumber>919</StateNumber>
       <UnderlyingIndexId>24582</UnderlyingIndexId>
+    </key>
+    <column id="290" parent="274" name="id_venta">
+      <DasType>bigint|0s</DasType>
+      <DefaultExpression>nextval(&apos;venta_id_venta_seq&apos;::regclass)</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>935</StateNumber>
+      <SequenceId>32782</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="291" parent="274" name="unidades_vendidas">
+      <DasType>integer|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>935</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="292" parent="274" name="id_articulo">
+      <DasType>integer|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>935</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="293" parent="274" name="id_comprador">
+      <DasType>integer|0s</DasType>
+      <Position>4</Position>
+      <StateNumber>935</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="294" parent="274" name="fklnw4dp0gglum20cl9oscinjpb">
+      <ColNames>id_articulo</ColNames>
+      <ObjectId>32789</ObjectId>
+      <StateNumber>936</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>32769</RefTableId>
+    </foreign-key>
+    <foreign-key id="295" parent="274" name="fktiei0orhsknq713fpdhj2swff">
+      <ColNames>id_comprador</ColNames>
+      <ObjectId>32794</ObjectId>
+      <StateNumber>937</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>32776</RefTableId>
+    </foreign-key>
+    <index id="296" parent="274" name="venta_pkey">
+      <ColNames>id_venta</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32787</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>935</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="297" parent="274" name="venta_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>32788</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>935</StateNumber>
+      <UnderlyingIndexId>32787</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>

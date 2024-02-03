@@ -11,6 +11,9 @@
     <property name="hibernate.hbm2ddl.auto">update</property>
     <property name="hibernate.show_sql">true</property>
     <mapping class="org.example.entities.User"/>
+    <mapping class="org.example.entities.Comprador"/>
+    <mapping class="org.example.entities.Articulo"/>
+    <mapping class="org.example.entities.Venta"/>
     <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
 

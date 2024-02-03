@@ -1,5 +1,40 @@
 
-Y
-java:S2583"CChange this condition so that it does not always evaluate to "true"(·…‹Ğ
-?	java:S106"+Replace this use of System.out by a logger.(ƒ”¬l
-@	java:S106"+Replace this use of System.out by a logger.(ñ´÷Ú
+Q
+java:S3740j"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8›â²âÖ1
+R
+java:S3740–"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8±çÃâÖ1
+R
+java:S3740Ÿ"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8±çÃâÖ1
+R
+java:S3740§"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8±çÃâÖ1
+x
+java:S3923/"[Remove this conditional structure or edit its code blocks so that they're not all the same.(·…‹Ğ8Ãã²âÖ1
+L	java:S1060"+Replace this use of System.out by a logger.( ¿˜¾ûÿÿÿÿ8Ãã²âÖ1
+L	java:S1062"+Replace this use of System.out by a logger.( ¿˜¾ûÿÿÿÿ8Ãã²âÖ1
+>
+java:S6205;"Remove this redundant block.(€ø¥ÿÿÿÿÿ8Ãã²âÖ1
+L	java:S106<"+Replace this use of System.out by a logger.(–‘Âáûÿÿÿÿ8Ãã²âÖ1
+G	java:S106?"+Replace this use of System.out by a logger.(Œ¤×†8Ãã²âÖ1
+G	java:S106@"+Replace this use of System.out by a logger.(§¬é8Åã²âÖ1
+F	java:S106S"+Replace this use of System.out by a logger.(¾Šö8Æã²âÖ1
+L	java:S106`"+Replace this use of System.out by a logger.(ÿÆ¿şÿÿÿÿ8Çã²âÖ1
+G	java:S106a"+Replace this use of System.out by a logger.(ßà»ı8Çã²âÖ1
+U
+java:S1874j"3Remove this use of "createQuery"; it is deprecated.(¬œ‘âşÿÿÿÿ8Çã²âÖ1
+G	java:S106m"+Replace this use of System.out by a logger.(éÜ¸Ê8Ëã²âÖ1
+P
+java:S1659s"4Declare "fechaCumpleanyosString" on a separate line.(‘Ô÷B8·ñ·âÖ1
+[
+java:S1854Œ"8Remove this useless assignment to local variable "date".(© üùÿÿÿÿ8¹ñ·âÖ1
+L
+java:S1481Œ")Remove this unused "date" local variable.(© üùÿÿÿÿ8ºñ·âÖ1
+H	java:S106"+Replace this use of System.out by a logger.(­Éª–8·âÀâÖ1
+V
+java:S1874–"3Remove this use of "createQuery"; it is deprecated.(¬œ‘âşÿÿÿÿ8çèÃâÖ1
+M	java:S106™"+Replace this use of System.out by a logger.(—áÉíıÿÿÿÿ8çèÃâÖ1
+V
+java:S1874Ÿ"3Remove this use of "createQuery"; it is deprecated.(¬œ‘âşÿÿÿÿ8èèÃâÖ1
+M	java:S106¢"+Replace this use of System.out by a logger.(òòŠ–ÿÿÿÿÿ8èèÃâÖ1
+V
+java:S1874§"3Remove this use of "createQuery"; it is deprecated.(¬œ‘âşÿÿÿÿ8èèÃâÖ1
+M	java:S106ª"+Replace this use of System.out by a logger.(É½µÉøÿÿÿÿ8èèÃâÖ1

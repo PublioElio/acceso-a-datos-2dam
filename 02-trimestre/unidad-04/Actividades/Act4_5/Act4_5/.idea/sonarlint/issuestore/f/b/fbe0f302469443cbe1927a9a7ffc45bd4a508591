@@ -1,0 +1,16 @@
+
+\
+java:S1118	":Add a private constructor to hide the implicit public one.(ñºÛöùÿÿÿÿ8îÆÃßÖ1
+G	java:S106"+Replace this use of System.out by a logger.(È÷Ä8ùÆÃßÖ1
+V
+java:S18548"9Remove this useless assignment to local variable "error".(Å÷š¦8úÆÃßÖ1
+G	java:S1065"+Replace this use of System.out by a logger.(È÷Ä8ûÆÃßÖ1
+V
+java:S1854R"9Remove this useless assignment to local variable "error".(Å÷š¦8üÆÃßÖ1
+G	java:S106O"+Replace this use of System.out by a logger.(È÷Ä8ıÆÃßÖ1
+G	java:S106h"+Replace this use of System.out by a logger.(È÷Ä8şÆÃßÖ1
+G	java:S106"+Replace this use of System.out by a logger.(È÷Ä8ÿÆÃßÖ1
+H	java:S106–"+Replace this use of System.out by a logger.(È÷Ä8€ÇÃßÖ1
+H	java:S106«"+Replace this use of System.out by a logger.(È÷Ä8ÇÃßÖ1
+M	java:S106¯"+Replace this use of System.out by a logger.(’½õìûÿÿÿÿ8‚ÇÃßÖ1
+H	java:S106¼"+Replace this use of System.out by a logger.(È÷Ä8ƒÇÃßÖ1
