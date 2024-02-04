@@ -17,5 +17,5 @@ e
 5src/main/java/org/example/entities/Concesionario.java,1\2\12de1bd5bf4e63ea7143c77ef5a569c9e19d7d02
 `
 0src/main/java/org/example/entities/Vehiculo.java,c\c\cc153990d9fa68b7636f9583f0000ff579086b3e
-f
-6src/main/java/org/example/entities/EmailValidator.java,7\c\7c340b7f9670742bc0d990b53a0d931a66f048b9
+]
+-src/main/java/org/example/EmailValidator.java,f\2\f218180a8ec3f9d3dca1a998cc9c2bd3c011f971
