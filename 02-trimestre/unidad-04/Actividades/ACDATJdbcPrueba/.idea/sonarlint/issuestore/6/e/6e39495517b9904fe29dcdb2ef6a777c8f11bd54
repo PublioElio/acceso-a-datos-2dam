@@ -1,0 +1,16 @@
+
+[
+java:S1854"@Remove this useless assignment to local variable "vistaAgencia".(—©·ýûÿÿÿÿ
+[
+java:S1854"@Remove this useless assignment to local variable "vistaCliente".(€Æ¯Ôüÿÿÿÿ
+L
+java:S1481"1Remove this unused "vistaCliente" local variable.(€Æ¯Ôüÿÿÿÿ
+L
+java:S1481"1Remove this unused "vistaAgencia" local variable.(—©·ýûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ñâý›ùÿÿÿÿ
+W	java:S125ñ"<This block of commented-out lines of code should be removed.(¼—¼øÿÿÿÿ
+W	java:S125ó"<This block of commented-out lines of code should be removed.(œÕÐìÿÿÿÿÿ
+M
+java:S1128"2Remove this unused import 'org.acdat.jdbc.MiJDBC'.(ž­›ûÿÿÿÿ
+`
+java:S1128"ERemove this unused import 'java.nio.charset.MalformedInputException'.(ÖßÉ’øÿÿÿÿ

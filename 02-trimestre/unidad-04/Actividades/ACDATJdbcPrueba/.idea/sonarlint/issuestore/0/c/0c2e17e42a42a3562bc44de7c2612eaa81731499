@@ -1,0 +1,27 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì¤Õ¡üÿÿÿÿ
+t
+java:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì¤Õ¡üÿÿÿÿ
+d
+java:S1192"NDefine a constant instead of duplicating this literal "fecha_llegada" 3 times.(Û¾×•
+_
+java:S1192"IDefine a constant instead of duplicating this literal "vuelo_id" 3 times.(ÈÌë
+a
+java:S1192"FDefine a constant instead of duplicating this literal "costo" 3 times.(´Œšıÿÿÿÿ
+h
+java:S1192"MDefine a constant instead of duplicating this literal "fecha_salida" 3 times.(îëæ»ûÿÿÿÿ
+]
+java:S1192"GDefine a constant instead of duplicating this literal "origen" 3 times.(­ğ½Ç
+h
+java:S1130"MRemove the redundant 'java.sql.SQLException' thrown exception declaration(s).(°®Ùşÿÿÿÿ
+D
+java:S1481[".Remove this unused "respuesta" local variable.(ğæ›Ë
+@
+java:S1481\"*Remove this unused "vuelo" local variable.(úÆ©–
+W
+java:S1126`"AReplace this if-then-else statement by a single return statement.(Œ‡Ü‘
+c
+java:S1130u"MRemove the redundant 'java.sql.SQLException' thrown exception declaration(s).(Ğºİ÷
+Q
+java:S1128"6Remove this unused import 'org.acdat.negocio.Cliente'.(æ˜ªıÿÿÿÿ

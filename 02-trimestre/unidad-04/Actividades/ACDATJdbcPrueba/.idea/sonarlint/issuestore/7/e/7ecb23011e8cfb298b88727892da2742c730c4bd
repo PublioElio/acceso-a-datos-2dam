@@ -1,0 +1,28 @@
+
+u
+java:S2293¡"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼½Áşÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åæàˆ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åæàˆ
+k	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¯í§şÿÿÿÿ
+k	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡úŸáøÿÿÿÿ
+l	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼½Áşÿÿÿÿ
+g	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­«–
+7
+java:S1643i"Use a StringBuilder instead.(Ï•½úÿÿÿÿ
+3
+java:S1643ª"Use a StringBuilder instead.(´÷äğ
+q	java:S116"WRename this field "fecha_salida" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’„É´úÿÿÿÿ
+m	java:S116"XRename this field "fecha_llegada" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïğ‡
+c	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é®÷½
+h	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¯í§şÿÿÿÿ
+h	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ê¢çúÿÿÿÿ
+h	java:S100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡úŸáøÿÿÿÿ
+X
+java:S1854c"=Remove this useless assignment to local variable "vueloList".(˜ªŠ²ÿÿÿÿÿ
+Y
+java:S1854¡"=Remove this useless assignment to local variable "VueloList".(¼½Áşÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'org.acdat.jpa.AgenciaJPAEntity'.(°Ã¬¦
+A
+java:S1128
+"+Remove this unused import 'java.util.Date'.(¸…¼ü
