@@ -1,0 +1,8 @@
+
+S
+java:S1481"1Remove this unused "vistaCliente" local variable.(€Æ¯Ôüÿÿÿÿ8î¬½Ê×1
+]	java:S125"<This block of commented-out lines of code should be removed.(¼—¼øÿÿÿÿ8úƒÂÊ×1
+T
+java:S1128"2Remove this unused import 'org.acdat.jdbc.MiJDBC'.(ž­›ûÿÿÿÿ8þ¬½Ê×1
+g
+java:S1128"ERemove this unused import 'java.nio.charset.MalformedInputException'.(ÖßÉ’øÿÿÿÿ8ÿ¬½Ê×1

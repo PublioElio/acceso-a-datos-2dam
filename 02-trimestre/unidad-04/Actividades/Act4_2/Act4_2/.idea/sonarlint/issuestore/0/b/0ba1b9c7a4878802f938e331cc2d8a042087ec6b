@@ -15,7 +15,5 @@ G	java:S106¿"+Replace this use of System.out by a logger.(§µ‰	8Ò¬Õ‰×1
 G	java:S106Ç"+Replace this use of System.out by a logger.(§µ‰	8Ò¬Õ‰×1
 H	java:S106Ë"+Replace this use of System.out by a logger.(Ú˜õË8Ò¬Õ‰×1
 H	java:S106Ì"+Replace this use of System.out by a logger.(Êéşä8ô‡Ö‰×1
-R
-java:S1128"0Remove this unused import 'jakarta.persistence'.(Î«Ô§úÿÿÿÿ8Õ¬Õ‰×1
 é
 java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 65 to 64, Complexity from 15 to 14, Nesting Level from 4 to 2, Number of Variables from 13 to 6.(ûÏÉŞûÿÿÿÿ8Ö¬Õ‰×1
