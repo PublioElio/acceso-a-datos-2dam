@@ -1,0 +1,44 @@
+
+{
+java:S2293W"YReplace the type specification in this constructor call with the diamond operator ("<>").(€èñûÿÿÿÿ8åÂ‘Ë×1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åæàˆ8æÂ‘Ë×1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åæàˆ8æÂ‘Ë×1
+r	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¯í§şÿÿÿÿ8æÂ‘Ë×1
+r	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡úŸáøÿÿÿÿ8æÂ‘Ë×1
+r	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€èñûÿÿÿÿ8æÂ‘Ë×1
+m	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­«–8æÂ‘Ë×1
+m	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ê˜î8æÂ‘Ë×1
+m	java:S117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­«–8æÂ‘Ë×1
+n	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ê˜î8æÂ‘Ë×1
+n	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­«–8æÂ‘Ë×1
+n	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­«–8æÂ‘Ë×1
+>
+java:S1643Z"Use a StringBuilder instead.(Ï•½úÿÿÿÿ8æÂ‘Ë×1
+x	java:S116"WRename this field "fecha_salida" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’„É´úÿÿÿÿ8îÂ‘Ë×1
+t	java:S116"XRename this field "fecha_llegada" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïğ‡8îÂ‘Ë×1
+j	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é®÷½8ñÂ‘Ë×1
+o	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¯í§şÿÿÿÿ8ñÂ‘Ë×1
+o	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ê¢çúÿÿÿÿ8ñÂ‘Ë×1
+o	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡úŸáøÿÿÿÿ8òÂ‘Ë×1
+_
+java:S1854W"=Remove this useless assignment to local variable "VueloList".(€èñûÿÿÿÿ8òÂ‘Ë×1
+
+java:S1130T"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ì±—›üÿÿÿÿ8·…—Ë×1
+Y
+java:S1854a"<Remove this useless assignment to local variable "vueloJPA".(Ÿ¿úõ8ØÅ—Ë×1
+‹
+java:S1130_"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(×¼ó‡8•Ö£Ë×1
+J
+java:S1481a"-Remove this unused "vueloJPA" local variable.(Ÿ¿úõ8ÙÅ—Ë×1
+>
+java:S1116l"Remove this empty statement.(ôŸìúÿÿÿÿ8÷Â‘Ë×1
+V
+java:S1854r"9Remove this useless assignment to local variable "Vuelo".(‘Ê˜î8÷Â‘Ë×1
+W
+java:S1854†"9Remove this useless assignment to local variable "Vuelo".(‘Ê˜î8øÂ‘Ë×1
+H
+java:S1481†"*Remove this unused "Vuelo" local variable.(‘Ê˜î8øÂ‘Ë×1
+?
+java:S1116˜"Remove this empty statement.(ôŸìúÿÿÿÿ8úÂ‘Ë×1
+H
+java:S1128	"+Remove this unused import 'java.util.Date'.(¸…¼ü8™Ö£Ë×1

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfeabaa1-079f-41da-9216-63c7b85521e6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../simulacro_examen/simulacro_examen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simulacro_examen/simulacro_examen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bwIKqTZeQGufUU3CTzHWD5kPW1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,7 +29,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Propietario/Documents/acceso-a-datos-2dam/02-trimestre/unidad-04/Actividades/ACDATJdbcPrueba",
+    "last_opened_file_path": "C:/Users/Propietario/Documents/acceso-a-datos-2dam/02-trimestre/unidad-04/ACDATJdbcPrueba - Limpio/ACDATJdbcPrueba - Limpio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +47,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707119653471</updated>
       <workItem from="1707119655352" duration="364000" />
+      <workItem from="1707133592758" duration="359000" />
+      <workItem from="1707133967323" duration="533000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,27 @@
+
+G
+src/HibernatePrueba.sql,a\c\ac435a754d91b34aa2fac05dcb27fb2e3c6f5fb9
+P
+ src/main/java/org/acdat/App.java,6\e\6e39495517b9904fe29dcdb2ef6a777c8f11bd54
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+a
+1src/main/java/org/acdat/entitiesJPA/VueloJPA.java,9\9\99ebec45434afd930428574fb7ea6620bf8bbbad
+>
+src/vuelos.sql,3\a\3addc4108f0a0a15740e57bed70bb0c9d151a3da
+d
+4src/main/java/org/acdat/entitiesJPA/ClientesJPA.java,7\d\7de7c3e1ec8e02429649e7d1e03b1467b5959cd1
+d
+4src/main/java/org/acdat/entitiesJPA/DestinosJPA.java,b\7\b7718f601ee243eace3d842887aa29e168840468
+d
+4src/main/java/org/acdat/entitiesXML/AgenciasJPA.java,2\b\2b455910bcbc954cade7bde7a9467d3fa556f2db
+]
+-src/main/java/org/acdat/vista/VistaVuelo.java,b\f\bf9f7432372d0709a410329b4241fd59f8fad7fa
+l
+<src/main/java/org/acdat/entitiesXML/ClientesDestinosJPA.java,8\f\8ff078ed6551a0e18211a6aeb7ce0b56a07d5cfd
+Z
+*src/main/java/org/acdat/negocio/Vuelo.java,7\e\7ecb23011e8cfb298b88727892da2742c730c4bd
+X
+(src/main/java/org/acdat/jdbc/MiJDBC.java,8\0\808d7d1182bdebad1e6ea803bf2fc72a10b844c4
+Z
+*src/main/java/org/acdat/jdbc/VueloDao.java,0\c\0c2e17e42a42a3562bc44de7c2612eaa81731499

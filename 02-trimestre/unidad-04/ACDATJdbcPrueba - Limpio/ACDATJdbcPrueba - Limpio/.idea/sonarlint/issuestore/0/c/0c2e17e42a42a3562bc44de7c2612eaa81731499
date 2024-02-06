@@ -1,0 +1,48 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼½Áşÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼½Áşÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç²‚¢
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ñ¿—ûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²×Â ûÿÿÿÿ
+k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„­ £ıÿÿÿÿ
+|
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "VueloList".(¼½Áşÿÿÿÿ
+v
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ûª
+v
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ûª
+x
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "Vuelo".(²×Â ûÿÿÿÿ
+w
+java:S1488&"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ğæ›Ë
+v
+java:S1488,"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ûª
+w
+java:S4144"\Update this method so that its implementation is not identical to "agregarVuelo" on line 16.(¥Ñ¿—ûÿÿÿÿ
+h
+java:S1130
+"MRemove the redundant 'java.sql.SQLException' thrown exception declaration(s).(°®Ùşÿÿÿÿ
+L
+java:S1172
+"1Remove this unused method parameter "connection".(°®Ùşÿÿÿÿ
+„
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ç²‚¢
+R
+java:S1172"<Remove these unused method parameters "connection", "Vuelo".(Ç²‚¢
+‰
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¥Ñ¿—ûÿÿÿÿ
+W
+java:S1172"<Remove these unused method parameters "connection", "Vuelo".(¥Ñ¿—ûÿÿÿÿ
+„
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(êïâ±
+O
+java:S1172"9Remove these unused method parameters "connection", "id".(êïâ±
+‰
+java:S1130%"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(…Êšêıÿÿÿÿ
+T
+java:S1172%"9Remove these unused method parameters "connection", "id".(…Êšêıÿÿÿÿ
+‰
+java:S1130+"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(„­ £ıÿÿÿÿ
+Y
+java:S1172+">Remove these unused method parameters "connection", "VueloId".(„­ £ıÿÿÿÿ
