@@ -5,11 +5,11 @@ r	java:S117S"QRename this local variable to match the regular expression '^[a-
 s	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÁ÷Øıÿÿÿÿ8ùŠöË×1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ú’‘¯8úŠöË×1
 h
-java:S2095"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8‰‹öË×1
+java:S2095‰"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8‰‹öË×1
 g
 java:S2095y"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8‰‹öË×1
 h
-java:S2095‰"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8‰‹öË×1
+java:S2095"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8‰‹öË×1
 t	java:S116"SRename this field "vuelo_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶°´Çşÿÿÿÿ8‰‹öË×1
 x	java:S116!"WRename this field "fecha_salida" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ªÎˆıÿÿÿÿ8‰‹öË×1
 y	java:S116%"XRename this field "fecha_llegada" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÉ˜Ôøÿÿÿÿ8‰‹öË×1

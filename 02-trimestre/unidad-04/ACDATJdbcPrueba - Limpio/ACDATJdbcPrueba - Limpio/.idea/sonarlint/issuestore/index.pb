@@ -21,3 +21,7 @@ X
 (src/main/java/org/acdat/jdbc/MiJDBC.java,8\0\808d7d1182bdebad1e6ea803bf2fc72a10b844c4
 Z
 *src/main/java/org/acdat/jdbc/VueloDao.java,0\c\0c2e17e42a42a3562bc44de7c2612eaa81731499
+l
+<src/main/java/org/acdat/entitiesXML/DestinosAgenciasJPA.java,d\c\dc45dc89bf6b8a5f37cd36a82df5310bd1ebe0b2
+n
+>src/main/java/org/acdat/entitiesXML/DestinosAgenciasJPAPK.java,3\f\3f2122301df9c7f5fcb537963c9f37eb7a92038a

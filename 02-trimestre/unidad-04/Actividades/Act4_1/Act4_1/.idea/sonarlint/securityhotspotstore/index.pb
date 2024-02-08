@@ -5,3 +5,9 @@ S
 #src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 ]
 -src/main/java/org/example/EntradaTeclado.java,f\b\fbe0f302469443cbe1927a9a7ffc45bd4a508591
+`
+0src/main/java/org/example/crud/CrudEmpleado.java,f\d\fd9385059e8e688ba62df068a3ad9525a4e6a089
+i
+9src/main/java/org/example/entidades/EmpleadosEntidad.java,d\c\dc335e026b1b64f0182967eaac9a07cc63989ac4
+[
++src/main/java/org/example/ValidadorDNI.java,a\c\ac34fedb27101348c4d20caa9520e66978dab46d

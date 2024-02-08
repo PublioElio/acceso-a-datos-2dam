@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="org.example.entidades.DepartamentosEntidad" table="departamentos" schema="public" catalog="empleados">
+        <id name="id">
+            <column name="id" sql-type="integer"/>
+        </id>
+        <property name="nombre">
+            <column name="nombre" sql-type="varchar(100)" length="100"/>
+        </property>
+        <property name="presupuesto">
+            <column name="presupuesto" sql-type="double precision" precision="-1"/>
+        </property>
+        <property name="gastos">
+            <column name="gastos" sql-type="double precision" precision="-1"/>
+        </property>
+        <set name="empleadosById" inverse="true">
+            <key>
+                <column name="id_departamento" not-null="true"/>
+            </key>
+            <one-to-many not-found="ignore" class="org.example.entidades.EmpleadosEntidad"/>
+        </set>
+    </class>
+</hibernate-mapping>
