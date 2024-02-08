@@ -14,7 +14,7 @@ public class CrudEmpleado {
         List<EmpleadosEntidad> listaEmpleados = miQuery.list();
         for (Object obj : listaEmpleados) {
             EmpleadosEntidad empleado = (EmpleadosEntidad) obj;
-            System.out.println("Empleado: " + empleado.getNombre() + ", número: " + empleado.getId());
+            System.out.println(empleado.toString());
         }
     }
 

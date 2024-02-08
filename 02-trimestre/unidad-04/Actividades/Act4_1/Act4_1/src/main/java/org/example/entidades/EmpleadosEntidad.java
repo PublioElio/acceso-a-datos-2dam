@@ -68,6 +68,15 @@ public class EmpleadosEntidad {
     }
 
     @Override
+    public String toString() {
+        return "ID: " + this.getId() +
+                "; Empleado: " + this.getNombre() + " " +
+                this.getApellido1() + " " + this.getApellido2() +
+                "; DNI: " + this.getNif() +
+                "; ID departamento: " + this.getIdDepartamento();
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(id, nif, nombre, apellido1, apellido2, idDepartamento);
     }
