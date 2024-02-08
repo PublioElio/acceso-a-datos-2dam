@@ -10,10 +10,6 @@ a
 >
 src/vuelos.sql,3\a\3addc4108f0a0a15740e57bed70bb0c9d151a3da
 d
-4src/main/java/org/acdat/entitiesJPA/ClientesJPA.java,7\d\7de7c3e1ec8e02429649e7d1e03b1467b5959cd1
-d
-4src/main/java/org/acdat/entitiesJPA/DestinosJPA.java,b\7\b7718f601ee243eace3d842887aa29e168840468
-d
 4src/main/java/org/acdat/entitiesXML/AgenciasJPA.java,2\b\2b455910bcbc954cade7bde7a9467d3fa556f2db
 ]
 -src/main/java/org/acdat/vista/VistaVuelo.java,b\f\bf9f7432372d0709a410329b4241fd59f8fad7fa

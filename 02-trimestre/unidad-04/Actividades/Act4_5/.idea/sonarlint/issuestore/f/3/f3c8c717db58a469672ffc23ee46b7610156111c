@@ -1,0 +1,33 @@
+
+`
+java:S1192"IDefine a constant instead of duplicating this literal "dd/MM/yy" 3 times.(€È€
+q
+java:S39237"[Remove this conditional structure or edit its code blocks so that they're not all the same.(·…‹Ğ
+E	java:S1068"+Replace this use of System.out by a logger.( ¿˜¾ûÿÿÿÿ
+E	java:S106:"+Replace this use of System.out by a logger.( ¿˜¾ûÿÿÿÿ
+@	java:S106E"+Replace this use of System.out by a logger.(Œ¤×†
+E	java:S106F"+Replace this use of System.out by a logger.(íò†³şÿÿÿÿ
+H
+java:S1172X"2Remove this unused method parameter "transaction".(²Ã‘
+@	java:S106`"+Replace this use of System.out by a logger.(éõë
+E	java:S106a"+Replace this use of System.out by a logger.(íò†³şÿÿÿÿ
+?	java:S106h"+Replace this use of System.out by a logger.(¾Šö
+E	java:S106u"+Replace this use of System.out by a logger.(ÿÆ¿şÿÿÿÿ
+E	java:S106v"+Replace this use of System.out by a logger.(íò†³şÿÿÿÿ
+A	java:S106‚"+Replace this use of System.out by a logger.(éÜ¸Ê
+T
+java:S1854¡"8Remove this useless assignment to local variable "date".(© üùÿÿÿÿ
+E
+java:S1481¡")Remove this unused "date" local variable.(© üùÿÿÿÿ
+A	java:S106£"+Replace this use of System.out by a logger.(­Éª–
+F	java:S106®"+Replace this use of System.out by a logger.(—áÉíıÿÿÿÿ
+F	java:S106·"+Replace this use of System.out by a logger.(òòŠ–ÿÿÿÿÿ
+F	java:S106À"+Replace this use of System.out by a logger.(É½µÉøÿÿÿÿ
+F	java:S106Í"+Replace this use of System.out by a logger.(Ğêòÿÿÿÿÿ
+F	java:S106Õ"+Replace this use of System.out by a logger.(Ğêòÿÿÿÿÿ
+n
+java:S3776ã"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ù‡İŞùÿÿÿÿ
+A	java:S106û"+Replace this use of System.out by a logger.(èãşî
+F	java:S106Š"+Replace this use of System.out by a logger.(äüÎÅıÿÿÿÿ
+A	java:S106"+Replace this use of System.out by a logger.(¯¹‘õ
+A	java:S106—"+Replace this use of System.out by a logger.(ş‚­£
