@@ -1,6 +1,8 @@
 package org.example;
 
+import org.example.crud.CrudDepartamento;
 import org.example.crud.CrudEmpleado;
+import org.example.entidades.DepartamentosEntidad;
 import org.example.entidades.EmpleadosEntidad;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -14,6 +16,7 @@ import java.util.logging.Level;
 
 public class Main {
     private static final org.slf4j.Logger logger = LoggerFactory.getLogger(Main.class);
+    private static final String DEBE_ESCOGER_SESION_VALIDA = "Debe escoger una opción válida";
 
     public static void main(String[] args) {
 
@@ -37,7 +40,7 @@ public class Main {
                     case 1 -> gestionarEmpleados(session);
                     case 2 -> gestionarDepartamentos(session);
                     case 3 -> System.out.println("Cerrando aplicación");
-                    default -> System.out.println("Debe escoger una opción válida");
+                    default -> System.out.println(DEBE_ESCOGER_SESION_VALIDA);
                 }
             } while (option != 3);
         } catch (Exception e) {
@@ -62,9 +65,28 @@ public class Main {
                 case 3 -> opcionAgregarDepartamento(session);
                 case 4 -> opcionBorrarDepartamento(session);
                 case 5 -> System.out.println("Volviendo al menú principal");
-                default -> System.out.println("Debe escoger una opción válida");
+                default -> System.out.println(DEBE_ESCOGER_SESION_VALIDA);
             }
         } while (option != 5);
+    }
+
+    private static void opcionBorrarDepartamento(Session session) {
+
+    }
+
+    private static void opcionAgregarDepartamento(Session session) {
+
+    }
+
+    private static void opcionActualizarDepartamento(Session session) {
+
+    }
+
+    private static void mostrarListaDepartamentos(Session session) {
+        List<DepartamentosEntidad> listaDepartamentos = CrudDepartamento.listarDepartamentos(session);
+        for (DepartamentosEntidad departamento : listaDepartamentos) {
+            System.out.println(departamento.toString());
+        }
     }
 
     private static void gestionarEmpleados(Session session) {
@@ -84,7 +106,7 @@ public class Main {
                 case 3 -> opcionAgregarEmpleado(session);
                 case 4 -> opcionBorrarEmpleado(session);
                 case 5 -> System.out.println("Volviendo al menú principal");
-                default -> System.out.println("Debe escoger una opción válida");
+                default -> System.out.println(DEBE_ESCOGER_SESION_VALIDA);
             }
         } while (option != 5);
     }
@@ -170,7 +192,7 @@ public class Main {
             sessionFactory = new Configuration().configure().buildSessionFactory();
             session = sessionFactory.openSession();
         } catch (HibernateException e) {
-            logger.error("Error al abrir la sesión de Hibernate: " + e.getMessage());
+            logger.error("Error al abrir la sesión de Hibernate: {}", e.getMessage());
             if (sessionFactory != null) {
                 sessionFactory.close();
             }

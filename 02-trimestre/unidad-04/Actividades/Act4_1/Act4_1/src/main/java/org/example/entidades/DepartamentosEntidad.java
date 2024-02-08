@@ -51,6 +51,14 @@ public class DepartamentosEntidad {
     }
 
     @Override
+    public String toString() {
+        return "ID: " + this.getId() +
+                "; Departamento: " + this.getNombre() +
+                "; Gastos: " + this.getGastos() +
+                "; Presupuesto: " + this.getPresupuesto();
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(id, nombre, presupuesto, gastos);
     }

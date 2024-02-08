@@ -1,12 +1,21 @@
 
-~
-java:S1192("aDefine a constant instead of duplicating this literal "Debe escoger una opciÃ³n vÃ¡lida" 3 times.(³¾Ÿ8İ¦ÕØ1
-G	java:S106'"+Replace this use of System.out by a logger.(İÁÌ“8ƒ·ÕØ1
-G	java:S106("+Replace this use of System.out by a logger.(³¾Ÿ8„·ÕØ1
-L	java:S106@"+Replace this use of System.out by a logger.(²¦òšşÿÿÿÿ8Ù™ÕØ1
-G	java:S106A"+Replace this use of System.out by a logger.(³¾Ÿ8Ù™ÕØ1
-L	java:S106V"+Replace this use of System.out by a logger.(²¦òšşÿÿÿÿ8’Ù™ÕØ1
-G	java:S106W"+Replace this use of System.out by a logger.(³¾Ÿ8³§ÕØ1
-L	java:S106i"+Replace this use of System.out by a logger.(£¤Óïÿÿÿÿÿ8´§ÕØ1
-d
-java:S3457­"AFormat specifiers should be used instead of string concatenation.(ÁÑõºùÿÿÿÿ8·ÕØ1
+£
+java:S1186I"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‘€¸Ãşÿÿÿÿ8Û‹ĞÕØ1
+
+java:S1186M"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(›¾8¹£ĞÕØ1
+
+java:S1186Q"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œâ÷¬8ëºĞÕØ1
+G	java:S106*"+Replace this use of System.out by a logger.(İÁÌ“8’«ªÕØ1
+G	java:S106+"+Replace this use of System.out by a logger.(“8’«ªÕØ1
+L	java:S106C"+Replace this use of System.out by a logger.(²¦òšşÿÿÿÿ8“«ªÕØ1
+G	java:S106D"+Replace this use of System.out by a logger.(“8“«ªÕØ1
+P
+java:S1172I".Remove this unused method parameter "session".(‘€¸Ãşÿÿÿÿ8á‹ĞÕØ1
+J
+java:S1172M".Remove this unused method parameter "session".(›¾8¿£ĞÕØ1
+K
+java:S1172Q".Remove this unused method parameter "session".(œâ÷¬8ñºĞÕØ1
+G	java:S106X"+Replace this use of System.out by a logger.(€½ôê8”«ªÕØ1
+L	java:S106l"+Replace this use of System.out by a logger.(²¦òšşÿÿÿÿ8”«ªÕØ1
+G	java:S106m"+Replace this use of System.out by a logger.(“8•«ªÕØ1
+L	java:S106"+Replace this use of System.out by a logger.(£¤Óïÿÿÿÿÿ8Å·ÕØ1
