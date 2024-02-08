@@ -11,6 +11,26 @@ public class EmpleadosEntidad {
     private Integer idDepartamento;
     private DepartamentosEntidad departamentosByIdDepartamento;
 
+    public EmpleadosEntidad(int id, String nombre, String apellido1, String apellido2, String nif, int idDepartamento) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido1 = apellido1;
+        this.apellido2 = apellido2;
+        this.nif = nif;
+        this.idDepartamento = idDepartamento;
+    }
+
+    public EmpleadosEntidad(String nombre, String apellido1, String apellido2, String nif, int idDepartamento) {
+        this.nombre = nombre;
+        this.apellido1 = apellido1;
+        this.apellido2 = apellido2;
+        this.nif = nif;
+        this.idDepartamento = idDepartamento;
+    }
+
+    public EmpleadosEntidad() {
+    }
+
     public int getId() {
         return id;
     }

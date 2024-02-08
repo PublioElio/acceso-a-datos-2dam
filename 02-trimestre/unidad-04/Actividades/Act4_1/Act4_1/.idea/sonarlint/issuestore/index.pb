@@ -11,3 +11,7 @@ i
 9src/main/java/org/example/entidades/EmpleadosEntidad.java,d\c\dc335e026b1b64f0182967eaac9a07cc63989ac4
 [
 +src/main/java/org/example/ValidadorDNI.java,a\c\ac34fedb27101348c4d20caa9520e66978dab46d
+m
+=src/main/java/org/example/entidades/DepartamentosEntidad.java,d\d\dd69507b5b7c513454511d29a8d62fc876bb030c
+d
+4src/main/java/org/example/crud/CrudDepartamento.java,0\5\05d7e38dc03dadb03da61965f1f7f4a13bffb4d2

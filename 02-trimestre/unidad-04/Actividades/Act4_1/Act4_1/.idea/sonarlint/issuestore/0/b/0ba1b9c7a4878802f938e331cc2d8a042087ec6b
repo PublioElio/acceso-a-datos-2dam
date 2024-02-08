@@ -1,31 +1,12 @@
 
-g	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ëüßÄØ1
-a
-java:S2583Y"DChange this condition so that it does not always evaluate to "false"(½Šš¸8ËıûÄØ1
-g
-java:S1854"ERemove this useless assignment to local variable "menuDepartamentos".( ó§‚üÿÿÿÿ8ƒıßÄØ1
-O
-java:S6126"2Replace this String concatenation with Text block.(ó£ÍÖ8ƒıßÄØ1
-T
-java:S6126"2Replace this String concatenation with Text block.( ó§‚üÿÿÿÿ8ƒıßÄØ1
-X
-java:S1481"6Remove this unused "menuDepartamentos" local variable.( ó§‚üÿÿÿÿ8„ıßÄØ1
-G	java:S106("+Replace this use of System.out by a logger.(½ˆûÎ8…ıßÄØ1
-X	java:S125("<This block of commented-out lines of code should be removed.(½ˆûÎ8ĞıûÄØ1
-G	java:S106)"+Replace this use of System.out by a logger.(İÁÌ“8‡ıßÄØ1
-G	java:S106*"+Replace this use of System.out by a logger.(³¾Ÿ8‡ıßÄØ1
-O
-java:S61263"2Replace this String concatenation with Text block.(®ÑñÆ8ÒıûÄØ1
-G	java:S106@"+Replace this use of System.out by a logger.(¾ø¹Â8ÓıûÄØ1
-X	java:S125@"<This block of commented-out lines of code should be removed.(¾ø¹Â8‡ıßÄØ1
-L	java:S106A"+Replace this use of System.out by a logger.(¾Îõ‡ûÿÿÿÿ8ÓıûÄØ1
-]	java:S125A"<This block of commented-out lines of code should be removed.(¾Îõ‡ûÿÿÿÿ8ÓıûÄØ1
-L	java:S106B"+Replace this use of System.out by a logger.(²¦òšşÿÿÿÿ8ˆıßÄØ1
-G	java:S106C"+Replace this use of System.out by a logger.(³¾Ÿ8ÓıûÄØ1
-I
-java:S1659I",Declare "idDepartamento" on a separate line.(é£ê…8ˆıßÄØ1
-c
-java:S1659J"FDeclare "apellido1" and all following declarations on a separate line.(ºÖíÍ8ÔıûÄØ1
-L	java:S106Z"+Replace this use of System.out by a logger.(Ÿˆ¹Ğşÿÿÿÿ8İıûÄØ1
-`
-java:S1128"CRemove this unused import 'org.example.entidades.EmpleadosEntidad'.(×°¡8ÛÙûÄØ1
+~
+java:S1192("aDefine a constant instead of duplicating this literal "Debe escoger una opciÃ³n vÃ¡lida" 3 times.(³¾Ÿ8İ¦ÕØ1
+G	java:S106'"+Replace this use of System.out by a logger.(İÁÌ“8ƒ·ÕØ1
+G	java:S106("+Replace this use of System.out by a logger.(³¾Ÿ8„·ÕØ1
+L	java:S106@"+Replace this use of System.out by a logger.(²¦òšşÿÿÿÿ8Ù™ÕØ1
+G	java:S106A"+Replace this use of System.out by a logger.(³¾Ÿ8Ù™ÕØ1
+L	java:S106V"+Replace this use of System.out by a logger.(²¦òšşÿÿÿÿ8’Ù™ÕØ1
+G	java:S106W"+Replace this use of System.out by a logger.(³¾Ÿ8³§ÕØ1
+L	java:S106i"+Replace this use of System.out by a logger.(£¤Óïÿÿÿÿÿ8´§ÕØ1
+d
+java:S3457­"AFormat specifiers should be used instead of string concatenation.(ÁÑõºùÿÿÿÿ8·ÕØ1
