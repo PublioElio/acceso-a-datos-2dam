@@ -79,7 +79,17 @@ public class Main {
     }
 
     private static void opcionActualizarDepartamento(Session session) {
+        DepartamentosEntidad departamentoActualizado = pedirDatosDepartamento();
+        if (CrudEmpleado.actualizarDepartamento(session, departamentoActualizado.getId(), departamentoActualizado.getNombre(),
+                departamentoActualizado.getPresupuesto(), departamentoActualizado.getGastos())) {
+            logger.info("Departamento actualizado correctamente");
+        } else {
+            logger.error("Departamento no actualizado");
+        }
+    }
 
+    private static DepartamentosEntidad pedirDatosDepartamento() {
+        return pedirDatosDepartamento();
     }
 
     private static void mostrarListaDepartamentos(Session session) {
