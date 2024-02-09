@@ -10,6 +10,22 @@ public class DepartamentosEntidad {
     private double gastos;
     private Collection<EmpleadosEntidad> empleadosById;
 
+    public DepartamentosEntidad(int id, String nombre, double presupuesto, double gastos) {
+        this.id = id;
+        this.nombre = nombre;
+        this.presupuesto = presupuesto;
+        this.gastos = gastos;
+    }
+
+    public DepartamentosEntidad() {
+    }
+
+    public DepartamentosEntidad(String nombre, double presupuesto, double gastos) {
+        this.nombre = nombre;
+        this.presupuesto = presupuesto;
+        this.gastos = gastos;
+    }
+
     public int getId() {
         return id;
     }

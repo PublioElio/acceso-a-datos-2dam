@@ -17,6 +17,7 @@ import java.util.logging.Level;
 public class Main {
     private static final org.slf4j.Logger logger = LoggerFactory.getLogger(Main.class);
     private static final String DEBE_ESCOGER_SESION_VALIDA = "Debe escoger una opción válida";
+    public static final String INTRODUZCA_EL_NOMBRE = "Introduzca el nombre: ";
 
     public static void main(String[] args) {
 
@@ -71,16 +72,38 @@ public class Main {
     }
 
     private static void opcionBorrarDepartamento(Session session) {
-
+        int idDepartamento = EntradaTeclado.pedirEntero("Introduzca la id del departamento a borrar: ",
+                0, CrudDepartamento.obtenerMaximaId(session));
+        if (CrudDepartamento.borrarDepartamento(session, idDepartamento)) {
+            logger.info("Departamento borrado correctamente");
+        } else {
+            logger.error("Error: departamento no borrado");
+        }
     }
 
     private static void opcionAgregarDepartamento(Session session) {
+        DepartamentosEntidad nuevoDepartamento = pedirDatosNuevoDepartamento();
+        if (CrudDepartamento.insertarDepartamento(session, nuevoDepartamento.getNombre(),
+                nuevoDepartamento.getPresupuesto(), nuevoDepartamento.getGastos())) {
+            logger.info("Departamento insertado correctamente");
+        } else {
+            logger.error("Departamento no insertado");
+        }
+    }
 
+    private static DepartamentosEntidad pedirDatosNuevoDepartamento() {
+        String nombre;
+        double presupuesto;
+        double gastos;
+        nombre = EntradaTeclado.pedirCadena(INTRODUZCA_EL_NOMBRE);
+        presupuesto = EntradaTeclado.pedirDouble("Introduzca el presupuesto: ");
+        gastos = EntradaTeclado.pedirDouble("Introduzca el gasto: ");
+        return new DepartamentosEntidad(nombre, presupuesto, gastos);
     }
 
     private static void opcionActualizarDepartamento(Session session) {
         DepartamentosEntidad departamentoActualizado = pedirDatosDepartamento();
-        if (CrudEmpleado.actualizarDepartamento(session, departamentoActualizado.getId(), departamentoActualizado.getNombre(),
+        if (CrudDepartamento.actualizarDepartamento(session, departamentoActualizado.getId(), departamentoActualizado.getNombre(),
                 departamentoActualizado.getPresupuesto(), departamentoActualizado.getGastos())) {
             logger.info("Departamento actualizado correctamente");
         } else {
@@ -89,7 +112,15 @@ public class Main {
     }
 
     private static DepartamentosEntidad pedirDatosDepartamento() {
-        return pedirDatosDepartamento();
+        int idDepartamento;
+        String nombre;
+        double presupuesto;
+        double gastos;
+        idDepartamento = EntradaTeclado.pedirEntero("Introduzca la id del departamento: ", 0);
+        nombre = EntradaTeclado.pedirCadena(INTRODUZCA_EL_NOMBRE);
+        presupuesto = EntradaTeclado.pedirDouble("Introduzca el presupuesto: ");
+        gastos = EntradaTeclado.pedirDouble("Introduzca el gasto: ");
+        return new DepartamentosEntidad(idDepartamento, nombre, presupuesto, gastos);
     }
 
     private static void mostrarListaDepartamentos(Session session) {
@@ -126,7 +157,7 @@ public class Main {
                 0, CrudEmpleado.obtenerMaximaId(session));
         if (CrudEmpleado.borrarEmpleado(session, idEmpleado)) {
             logger.info("Empleado borrado correctamente");
-        } else{
+        } else {
             logger.error("Error: empleado no borrado");
         }
     }
@@ -168,7 +199,7 @@ public class Main {
         String apellido2;
         String nif;
         id = EntradaTeclado.pedirEntero("Introduzca la id del empleado: ", 0);
-        nombre = EntradaTeclado.pedirCadena("Introduzca el nombre: ");
+        nombre = EntradaTeclado.pedirCadena(INTRODUZCA_EL_NOMBRE);
         apellido1 = EntradaTeclado.pedirCadena("Introduzca el primer apellido: ");
         apellido2 = EntradaTeclado.pedirCadena("Introduzca el segundo apellido: ");
         do {
@@ -184,7 +215,7 @@ public class Main {
         String apellido2;
         String nif;
         int idDepartamento;
-        nombre = EntradaTeclado.pedirCadena("Introduzca el nombre: ");
+        nombre = EntradaTeclado.pedirCadena(INTRODUZCA_EL_NOMBRE);
         apellido1 = EntradaTeclado.pedirCadena("Introduzca el primer apellido: ");
         apellido2 = EntradaTeclado.pedirCadena("Introduzca el segundo apellido: ");
         do {
