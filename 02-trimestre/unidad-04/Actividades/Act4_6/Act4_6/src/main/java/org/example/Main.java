@@ -4,6 +4,8 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
+import org.example.entidades.CuentaCredito;
+import org.example.entidades.CuentaDebito;
 
 /**
  * Este es el main para probar el proyecto

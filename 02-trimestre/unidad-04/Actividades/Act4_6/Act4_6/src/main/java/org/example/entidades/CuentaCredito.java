@@ -1,8 +1,10 @@
-package org.example;
+package org.example.entidades;
 
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 
 @Entity
+@DiscriminatorValue("CC")
 public class CuentaCredito extends CuentaBancaria {
     private double limiteCredito;
 

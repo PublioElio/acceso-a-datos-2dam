@@ -1,12 +1,12 @@
-package org.example;
+package org.example.entidades;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+
+import java.io.Serializable;
 
 @Entity
-public class CuentaBancaria {
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+public class CuentaBancaria implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
