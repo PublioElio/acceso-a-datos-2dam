@@ -8,9 +8,6 @@
     <property name="connection.driver_class">org.postgresql.Driver</property>
     <property name="connection.username">postgres</property>
     <property name="connection.password">A123456a</property>
-    <mapping class="org.example.entidades.CuentaBancaria"/>
-    <mapping class="org.example.entidades.CuentaCredito"/>
-    <mapping class="org.example.entidades.CuentaDebito"/>
     <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
 

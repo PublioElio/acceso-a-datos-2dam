@@ -2,12 +2,40 @@ package org.example.entidades;
 
 import jakarta.persistence.*;
 
-import java.io.Serializable;
+@MappedSuperclass
+public class Cuenta {
+    public Long getId() {
+        return id;
+    }
 
-@Entity
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name = "tipo_cuenta")
-public class CuentaBancaria implements Serializable {
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public void setTitular(String titular) {
+        this.titular = titular;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public double getTipoInteres() {
+        return tipoInteres;
+    }
+
+    public void setTipoInteres(double tipoInteres) {
+        this.tipoInteres = tipoInteres;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -15,29 +43,6 @@ public class CuentaBancaria implements Serializable {
     private double balance;
     private double tipoInteres;
 
-    public Long getId() {
-        return id;
-    }
-    public void setId(Long id) {
-        this.id = id;
-    }
-    public String getTitular() {
-        return titular;
-    }
-    public void setTitular(String titular) {
-        this.titular = titular;
-    }
-    public double getBalance() {
-        return balance;
-    }
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
-    public double getTipoInteres() {
-        return tipoInteres;
-    }
-    public void setTipoInteres(double tipoInteres) {
-        this.tipoInteres = tipoInteres;
-    }
+
 }
 
