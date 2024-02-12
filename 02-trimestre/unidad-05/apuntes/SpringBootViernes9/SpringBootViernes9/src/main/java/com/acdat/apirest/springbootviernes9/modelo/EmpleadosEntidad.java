@@ -1,12 +1,14 @@
 package com.acdat.apirest.springbootviernes9.modelo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
 import java.util.Objects;
 
 @Entity
 @Table(name = "empleados", schema = "public", catalog = "empleados")
-public class EmpleadosEntidadJPA {
+public class EmpleadosEntidad {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "id", nullable = false)
@@ -26,6 +28,10 @@ public class EmpleadosEntidadJPA {
     @Basic
     @Column(name = "id_departamento", nullable = true)
     private Integer idDepartamento;
+    @ManyToOne
+    @JsonIgnoreProperties("empleados")
+    @JoinColumn(name = "id_departamento", referencedColumnName = "id", insertable = false, updatable = false)
+    private DepartamentosEntidad departamentosByIdDepartamento;
 
     public int getId() {
         return id;
@@ -79,12 +85,20 @@ public class EmpleadosEntidadJPA {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        EmpleadosEntidadJPA that = (EmpleadosEntidadJPA) o;
+        EmpleadosEntidad that = (EmpleadosEntidad) o;
         return id == that.id && Objects.equals(nif, that.nif) && Objects.equals(nombre, that.nombre) && Objects.equals(apellido1, that.apellido1) && Objects.equals(apellido2, that.apellido2) && Objects.equals(idDepartamento, that.idDepartamento);
     }
 
     @Override
     public int hashCode() {
         return Objects.hash(id, nif, nombre, apellido1, apellido2, idDepartamento);
+    }
+
+    public DepartamentosEntidad getDepartamentosByIdDepartamento() {
+        return departamentosByIdDepartamento;
+    }
+
+    public void setDepartamentosByIdDepartamento(DepartamentosEntidad departamentosByIdDepartamento) {
+        this.departamentosByIdDepartamento = departamentosByIdDepartamento;
     }
 }

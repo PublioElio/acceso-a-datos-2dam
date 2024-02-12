@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootViernes9Application {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(SpringBootViernes9Application.class, args);
+
 	}
 
 }
