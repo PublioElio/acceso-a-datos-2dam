@@ -1,5 +1,6 @@
 package com.acdat.apirest.springbootviernes9.controladores;
 
+import com.acdat.apirest.springbootviernes9.dao.IDepartamentosDAO;
 import com.acdat.apirest.springbootviernes9.dao.IEmpleadosDAO;
 import com.acdat.apirest.springbootviernes9.modelo.EmpleadosEntidad;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,8 @@ public class controladorEmpleados {
 
     @Autowired
     IEmpleadosDAO empleadosDAO;
+    @Autowired
+    IDepartamentosDAO departamentosDAO;
 
     @GetMapping
     public List<EmpleadosEntidad> buscarEmpleados() {
