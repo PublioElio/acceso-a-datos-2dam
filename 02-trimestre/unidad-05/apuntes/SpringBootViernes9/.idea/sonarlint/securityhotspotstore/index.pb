@@ -11,3 +11,5 @@ bSpringBootViernes9/src/main/java/com/acdat/apirest/springbootviernes9/modelo/Em
 qSpringBootViernes9/src/main/java/com/acdat/apirest/springbootviernes9/controladores/controladorDepartamentos.java,6\2\62a52d248b8662eee15479d5627c8243de0e8f34
 ê
 `SpringBootViernes9/src/main/java/com/acdat/apirest/springbootviernes9/dao/IDepartamentosDAO.java,2\e\2eac444ccb51bebb137777b27a10a653138362fd
+ã
+[SpringBootViernes9/src/main/java/com/acdat/apirest/springbootviernes9/dto/EmpleadosDTO.java,5\1\51ed4c069f201e977d1bfccb760d95b7fcbc22cb
