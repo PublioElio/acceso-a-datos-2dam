@@ -1,3 +1,13 @@
 
-d
-java:S2094"BRemove this empty class, write its code or make it an "interface".(ý€³íÿÿÿÿÿ8‡éºŽÛ1
+K
+java:S1068")Remove this unused "empno" private field.(å˜íŽùÿÿÿÿ8¾â—‹Ü1
+L
+java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ8ôÁ•‹Ü1
+G
+java:S1068"*Remove this unused "puesto" private field.(ŒîÏÌ8õ†–‹Ü1
+K
+java:S1068")Remove this unused "depno" private field.(®ù—ûüÿÿÿÿ8Õ¯–‹Ü1
+R
+java:S1068"6Remove this unused "departamentoNombre" private field.(©£åB8£Ð˜‹Ü1
+V
+java:S1068	"9Remove this unused "departamentoUbicacion" private field.(¼»¶Ë8£Ð˜‹Ü1
