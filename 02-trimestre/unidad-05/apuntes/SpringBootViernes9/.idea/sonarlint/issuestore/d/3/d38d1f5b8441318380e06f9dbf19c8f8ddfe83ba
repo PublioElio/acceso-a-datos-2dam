@@ -5,6 +5,6 @@ java:S6813"BRemove this field injection and use constructor injection instead.
 _
 java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÅçĞÛ1
 <
-java:S1452("&Remove usage of generic wildcard type.(¤Şô¾
+java:S1452)"&Remove usage of generic wildcard type.(¤Şô¾
 A
-java:S14524"&Remove usage of generic wildcard type.(Ëáãşşÿÿÿÿ
+java:S14525"&Remove usage of generic wildcard type.(Ëáãşşÿÿÿÿ

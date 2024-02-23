@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IEmpleadosDAO extends CrudRepository<EntidadEmpleados, Integer> {
 
-    EntidadEmpleados findByNombreStartingWith(String nombre, String prefijo);
+    EntidadEmpleados findByNombreStartingWith(String prefijo);
 
     EntidadEmpleados findByPuestoContaining(String subcadena);
 }

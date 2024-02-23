@@ -1,5 +1,6 @@
 package org.example.act_8_1.modelo.entidades;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
 import java.util.Collection;
@@ -19,6 +20,7 @@ public class EntidadDepartamentos {
     @Column(name = "ubicacion", nullable = true, length = 13)
     private String ubicacion;
     @OneToMany(mappedBy = "departamentosByDepno")
+    @JsonIgnoreProperties("departamentosByDepno")
     private Collection<EntidadEmpleados> empleadosByDepno;
 
     public int getDepno() {

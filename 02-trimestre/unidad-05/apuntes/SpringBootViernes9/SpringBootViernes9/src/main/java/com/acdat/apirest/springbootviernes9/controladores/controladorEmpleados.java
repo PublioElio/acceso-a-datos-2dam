@@ -28,7 +28,8 @@ public class controladorEmpleados {
     @GetMapping("/{id}")
     public ResponseEntity<EmpleadosEntidad> buscarEmpleadosPorId(@PathVariable(value = "id") int id) {
         Optional<EmpleadosEntidad> empleado = empleadosDAO.findById(id);
-        return empleado.map(empleadosEntidad -> ResponseEntity.ok().body(empleadosEntidad)).orElseGet(() -> ResponseEntity.notFound().build());
+        return empleado.map(empleadosEntidad -> ResponseEntity.ok().body(empleadosEntidad)).orElseGet(()
+                -> ResponseEntity.notFound().build());
     }
 
     @PostMapping
