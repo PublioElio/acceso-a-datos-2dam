@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "empleados", schema = "public", catalog = "empleados")
-public class EmpleadosEntity {
+public class EntidadEmpleados {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "id", nullable = false)
@@ -28,7 +28,7 @@ public class EmpleadosEntity {
     private Integer idDepartamento;
     @ManyToOne
     @JoinColumn(name = "id_departamento", referencedColumnName = "id")
-    private DepartamentosEntity departamentosByIdDepartamento;
+    private EntidadDepartamentos departamentosByIdDepartamento;
 
     public int getId() {
         return id;
@@ -82,7 +82,7 @@ public class EmpleadosEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        EmpleadosEntity that = (EmpleadosEntity) o;
+        EntidadEmpleados that = (EntidadEmpleados) o;
         return id == that.id && Objects.equals(nif, that.nif) && Objects.equals(nombre, that.nombre) && Objects.equals(apellido1, that.apellido1) && Objects.equals(apellido2, that.apellido2) && Objects.equals(idDepartamento, that.idDepartamento);
     }
 
@@ -91,11 +91,11 @@ public class EmpleadosEntity {
         return Objects.hash(id, nif, nombre, apellido1, apellido2, idDepartamento);
     }
 
-    public DepartamentosEntity getDepartamentosByIdDepartamento() {
+    public EntidadDepartamentos getDepartamentosByIdDepartamento() {
         return departamentosByIdDepartamento;
     }
 
-    public void setDepartamentosByIdDepartamento(DepartamentosEntity departamentosByIdDepartamento) {
+    public void setDepartamentosByIdDepartamento(EntidadDepartamentos departamentosByIdDepartamento) {
         this.departamentosByIdDepartamento = departamentosByIdDepartamento;
     }
 }

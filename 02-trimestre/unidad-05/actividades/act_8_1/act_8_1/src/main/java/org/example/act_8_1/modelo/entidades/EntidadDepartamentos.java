@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "departamentos", schema = "public", catalog = "empleados")
-public class DepartamentosEntity {
+public class EntidadDepartamentos {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "id", nullable = false)
@@ -22,7 +22,7 @@ public class DepartamentosEntity {
     @Column(name = "gastos", nullable = false, precision = 0)
     private double gastos;
     @OneToMany(mappedBy = "departamentosByIdDepartamento")
-    private Collection<EmpleadosEntity> empleadosById;
+    private Collection<EntidadEmpleados> empleadosById;
 
     public int getId() {
         return id;
@@ -60,7 +60,7 @@ public class DepartamentosEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        DepartamentosEntity that = (DepartamentosEntity) o;
+        EntidadDepartamentos that = (EntidadDepartamentos) o;
         return id == that.id && Double.compare(presupuesto, that.presupuesto) == 0 && Double.compare(gastos, that.gastos) == 0 && Objects.equals(nombre, that.nombre);
     }
 
@@ -69,11 +69,11 @@ public class DepartamentosEntity {
         return Objects.hash(id, nombre, presupuesto, gastos);
     }
 
-    public Collection<EmpleadosEntity> getEmpleadosById() {
+    public Collection<EntidadEmpleados> getEmpleadosById() {
         return empleadosById;
     }
 
-    public void setEmpleadosById(Collection<EmpleadosEntity> empleadosById) {
+    public void setEmpleadosById(Collection<EntidadEmpleados> empleadosById) {
         this.empleadosById = empleadosById;
     }
 }

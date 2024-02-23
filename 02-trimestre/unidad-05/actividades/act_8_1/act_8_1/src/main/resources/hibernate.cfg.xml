@@ -4,12 +4,12 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:postgresql://localhost:5432/empleados</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/empleadosinstituto</property>
         <property name="connection.driver_class">org.postgresql.Driver</property>
         <property name="connection.username">postgres</property>
         <property name="connection.password">A123456a</property>
-        <mapping class="org.example.act_8_1.modelo.entidades.DepartamentosEntity"/>
-        <mapping class="org.example.act_8_1.modelo.entidades.EmpleadosEntity"/>
+        <mapping class="org.example.act_8_1.modelo.entidades.EntidadDepartamentos"/>
+        <mapping class="org.example.act_8_1.modelo.entidades.EntidadEmpleados"/>
         <!-- <property name="connection.username"/> -->
         <!-- <property name="connection.password"/> -->
 
