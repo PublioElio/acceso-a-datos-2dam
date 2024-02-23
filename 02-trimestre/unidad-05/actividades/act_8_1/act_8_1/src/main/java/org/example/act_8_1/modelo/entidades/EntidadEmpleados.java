@@ -1,5 +1,6 @@
 package org.example.act_8_1.modelo.entidades;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
@@ -22,7 +23,7 @@ public class EntidadEmpleados {
     @Column(name = "depno", nullable = true)
     private Integer depno;
     @ManyToOne
-    @JsonIgnoreProperties("empleados")
+    @JsonIgnore
     @JoinColumn(name = "depno", referencedColumnName = "depno", insertable = false, updatable = false)
     private EntidadDepartamentos departamentosByDepno;
 
