@@ -6,30 +6,27 @@ import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-@Table(name = "departamentos", schema = "public", catalog = "empleados")
+@Table(name = "departamentos", schema = "public", catalog = "empleadosinstituto")
 public class EntidadDepartamentos {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    @Column(name = "id", nullable = false)
-    private int id;
+    @Column(name = "depno", nullable = false)
+    private int depno;
     @Basic
-    @Column(name = "nombre", nullable = false, length = 100)
+    @Column(name = "nombre", nullable = true, length = 14)
     private String nombre;
     @Basic
-    @Column(name = "presupuesto", nullable = false, precision = 0)
-    private double presupuesto;
-    @Basic
-    @Column(name = "gastos", nullable = false, precision = 0)
-    private double gastos;
-    @OneToMany(mappedBy = "departamentosByIdDepartamento")
-    private Collection<EntidadEmpleados> empleadosById;
+    @Column(name = "ubicacion", nullable = true, length = 13)
+    private String ubicacion;
+    @OneToMany(mappedBy = "departamentosByDepno")
+    private Collection<EntidadEmpleados> empleadosByDepno;
 
-    public int getId() {
-        return id;
+    public int getDepno() {
+        return depno;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setDepno(int depno) {
+        this.depno = depno;
     }
 
     public String getNombre() {
@@ -40,20 +37,12 @@ public class EntidadDepartamentos {
         this.nombre = nombre;
     }
 
-    public double getPresupuesto() {
-        return presupuesto;
+    public String getUbicacion() {
+        return ubicacion;
     }
 
-    public void setPresupuesto(double presupuesto) {
-        this.presupuesto = presupuesto;
-    }
-
-    public double getGastos() {
-        return gastos;
-    }
-
-    public void setGastos(double gastos) {
-        this.gastos = gastos;
+    public void setUbicacion(String ubicacion) {
+        this.ubicacion = ubicacion;
     }
 
     @Override
@@ -61,19 +50,19 @@ public class EntidadDepartamentos {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         EntidadDepartamentos that = (EntidadDepartamentos) o;
-        return id == that.id && Double.compare(presupuesto, that.presupuesto) == 0 && Double.compare(gastos, that.gastos) == 0 && Objects.equals(nombre, that.nombre);
+        return depno == that.depno && Objects.equals(nombre, that.nombre) && Objects.equals(ubicacion, that.ubicacion);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nombre, presupuesto, gastos);
+        return Objects.hash(depno, nombre, ubicacion);
     }
 
-    public Collection<EntidadEmpleados> getEmpleadosById() {
-        return empleadosById;
+    public Collection<EntidadEmpleados> getEmpleadosByDepno() {
+        return empleadosByDepno;
     }
 
-    public void setEmpleadosById(Collection<EntidadEmpleados> empleadosById) {
-        this.empleadosById = empleadosById;
+    public void setEmpleadosByDepno(Collection<EntidadEmpleados> empleadosByDepno) {
+        this.empleadosByDepno = empleadosByDepno;
     }
 }

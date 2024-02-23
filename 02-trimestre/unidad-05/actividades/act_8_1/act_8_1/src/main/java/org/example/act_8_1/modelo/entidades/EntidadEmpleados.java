@@ -5,45 +5,31 @@ import jakarta.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "empleados", schema = "public", catalog = "empleados")
+@Table(name = "empleados", schema = "public", catalog = "empleadosinstituto")
 public class EntidadEmpleados {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    @Column(name = "id", nullable = false)
-    private int id;
+    @Column(name = "empno", nullable = false)
+    private int empno;
     @Basic
-    @Column(name = "nif", nullable = false, length = 9)
-    private String nif;
-    @Basic
-    @Column(name = "nombre", nullable = false, length = 100)
+    @Column(name = "nombre", nullable = true, length = 10)
     private String nombre;
     @Basic
-    @Column(name = "apellido1", nullable = false, length = 100)
-    private String apellido1;
+    @Column(name = "puesto", nullable = true, length = 15)
+    private String puesto;
     @Basic
-    @Column(name = "apellido2", nullable = true, length = 100)
-    private String apellido2;
-    @Basic
-    @Column(name = "id_departamento", nullable = true)
-    private Integer idDepartamento;
+    @Column(name = "depno", nullable = true)
+    private Integer depno;
     @ManyToOne
-    @JoinColumn(name = "id_departamento", referencedColumnName = "id")
-    private EntidadDepartamentos departamentosByIdDepartamento;
+    @JoinColumn(name = "depno", referencedColumnName = "depno")
+    private EntidadDepartamentos departamentosByDepno;
 
-    public int getId() {
-        return id;
+    public int getEmpno() {
+        return empno;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getNif() {
-        return nif;
-    }
-
-    public void setNif(String nif) {
-        this.nif = nif;
+    public void setEmpno(int empno) {
+        this.empno = empno;
     }
 
     public String getNombre() {
@@ -54,28 +40,20 @@ public class EntidadEmpleados {
         this.nombre = nombre;
     }
 
-    public String getApellido1() {
-        return apellido1;
+    public String getPuesto() {
+        return puesto;
     }
 
-    public void setApellido1(String apellido1) {
-        this.apellido1 = apellido1;
+    public void setPuesto(String puesto) {
+        this.puesto = puesto;
     }
 
-    public String getApellido2() {
-        return apellido2;
+    public Integer getDepno() {
+        return depno;
     }
 
-    public void setApellido2(String apellido2) {
-        this.apellido2 = apellido2;
-    }
-
-    public Integer getIdDepartamento() {
-        return idDepartamento;
-    }
-
-    public void setIdDepartamento(Integer idDepartamento) {
-        this.idDepartamento = idDepartamento;
+    public void setDepno(Integer depno) {
+        this.depno = depno;
     }
 
     @Override
@@ -83,19 +61,19 @@ public class EntidadEmpleados {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         EntidadEmpleados that = (EntidadEmpleados) o;
-        return id == that.id && Objects.equals(nif, that.nif) && Objects.equals(nombre, that.nombre) && Objects.equals(apellido1, that.apellido1) && Objects.equals(apellido2, that.apellido2) && Objects.equals(idDepartamento, that.idDepartamento);
+        return empno == that.empno && Objects.equals(nombre, that.nombre) && Objects.equals(puesto, that.puesto) && Objects.equals(depno, that.depno);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nif, nombre, apellido1, apellido2, idDepartamento);
+        return Objects.hash(empno, nombre, puesto, depno);
     }
 
-    public EntidadDepartamentos getDepartamentosByIdDepartamento() {
-        return departamentosByIdDepartamento;
+    public EntidadDepartamentos getDepartamentosByDepno() {
+        return departamentosByDepno;
     }
 
-    public void setDepartamentosByIdDepartamento(EntidadDepartamentos departamentosByIdDepartamento) {
-        this.departamentosByIdDepartamento = departamentosByIdDepartamento;
+    public void setDepartamentosByDepno(EntidadDepartamentos departamentosByDepno) {
+        this.departamentosByDepno = departamentosByDepno;
     }
 }
