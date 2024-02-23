@@ -1,14 +1,12 @@
-DROP TABLE IF EXISTS prestamos;
+CREATE DATABASE biblioteca;
 
-DROP TABLE IF EXISTS libros;
-
-DROP TABLE IF EXISTS usuarios;
+USE biblioteca;
 
 CREATE TABLE libros (
-    isbn varchar(13) PRIMARY KEY,
-    titulo varchar(90) NOT NULL,
-    copias INTEGER default 1,
-    editorial varchar (60)
+    isbn VARCHAR(13) PRIMARY KEY,
+    titulo VARCHAR(90) NOT NULL,
+    copias INTEGER DEFAULT 1,
+    editorial VARCHAR(60)
 );
 
 INSERT INTO
@@ -16,7 +14,7 @@ INSERT INTO
 VALUES
     (
         '0141189207445',
-        'El amor en tiempos del colera',
+        'El amor en tiempos del cólera',
         1,
         'Penguin libros'
     ),
@@ -51,11 +49,11 @@ VALUES
         'Santillana'
     );
 
-CREATE TABLE usuarios(
-    codigo varchar(8) PRIMARY KEY,
-    nombre varchar(25) NOT NULL,
-    apellidos varchar(25) NOT NULL,
-    fechanacimiento date
+CREATE TABLE usuarios (
+    codigo VARCHAR(8) PRIMARY KEY,
+    nombre VARCHAR(25) NOT NULL,
+    apellidos VARCHAR(25) NOT NULL,
+    fechanacimiento DATE
 );
 
 INSERT INTO
@@ -69,10 +67,12 @@ VALUES
 
 CREATE TABLE prestamos (
     id SERIAL PRIMARY KEY,
-    fechaprestamo date NOT NULL,
-    fechadevolucion date default NULL,
-    libro varchar(13) NOT NULL,
-    usuario varchar(13) NOT NULL
+    fechaprestamo DATE NOT NULL,
+    fechadevolucion DATE DEFAULT NULL,
+    libro VARCHAR(13) NOT NULL,
+    usuario VARCHAR(13) NOT NULL,
+    CONSTRAINT fk_libro FOREIGN KEY (libro) REFERENCES libros(isbn) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT fk_usuario FOREIGN KEY (usuario) REFERENCES usuarios(codigo) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 INSERT INTO
@@ -150,10 +150,3 @@ VALUES
         '9780415141444',
         'B329087'
     );
-
-ALTER TABLE
-    prestamos
-ADD
-    CONSTRAINT prestamos_ibfk_1 FOREIGN KEY (libro) REFERENCES libros(isbn) ON DELETE CASCADE ON UPDATE CASCADE,
-ADD
-    CONSTRAINT prestamos_ibfk_2 FOREIGN KEY (usuario) REFERENCES usuarios(codigo) ON DELETE CASCADE ON UPDATE CASCADE;
