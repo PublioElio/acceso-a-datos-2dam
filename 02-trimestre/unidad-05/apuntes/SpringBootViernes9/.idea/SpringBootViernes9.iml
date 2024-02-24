@@ -3,17 +3,7 @@
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" />
   </component>
-  <component name="FacetManager">
-    <facet type="hibernate" name="Hibernate">
-      <configuration>
-        <datasource-map />
-        <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/SpringBootViernes9/src/main/resources/hibernate.cfg.xml" />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/SpringBootViernes9/target/classes/hibernate.cfg.xml" />
-      </configuration>
-    </facet>
-  </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="6414e0ee-8f32-4137-aa56-c75b92f32c86" />
+    <option name="uniqueId" value="487c9c48-42f5-4059-bee0-e6a4af0848b4" />
   </component>
 </module>
