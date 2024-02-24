@@ -6,11 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface IDepartamentosDAO extends CrudRepository<EntidadDepartamentos, Integer> {
-
     EntidadDepartamentos findByNombreIgnoreCase(String nombre);
-
     EntidadDepartamentos findByUbicacionIgnoreCase(String ubicacion);
-
     EntidadDepartamentos findByDepno(int depno);
-
 }

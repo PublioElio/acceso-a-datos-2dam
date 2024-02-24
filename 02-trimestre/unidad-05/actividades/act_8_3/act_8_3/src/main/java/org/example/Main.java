@@ -14,5 +14,6 @@ public class Main {
         } catch (JSONException e) {
             LOGGER.log(Level.SEVERE, "Error con el JSON");
         }
+        RequestManager.deleteRequest("1234");
     }
 }
