@@ -1,0 +1,8 @@
+
+d
+java:S1192 "GDefine a constant instead of duplicating this literal "nombre" 3 times.(ÉÿÿÛ8¸†ìåİ1
+y
+java:S2629 "\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÉÿÿÛ8¹†ìåİ1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(¯ƒº¦8Æ†ìåİ1
+L	java:S106O"+Replace this use of System.out by a logger.(²›Âµûÿÿÿÿ8Ï†ìåİ1

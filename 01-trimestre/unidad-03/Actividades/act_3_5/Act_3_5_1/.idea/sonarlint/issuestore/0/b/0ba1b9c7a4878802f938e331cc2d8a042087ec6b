@@ -1,0 +1,13 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºíŸ¨ûÿÿÿÿ
+b
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ùÃ›ßúÿÿÿÿ
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¨¤¹É
+L
+java:S6437"6Revoke and change this password, as it is compromised.(Îêöë
+E	java:S106"+Replace this use of System.out by a logger.(”¯¸¥ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÆÇâÈýÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(æã‹¬
+@	java:S106"+Replace this use of System.out by a logger.(ì‹ ÷

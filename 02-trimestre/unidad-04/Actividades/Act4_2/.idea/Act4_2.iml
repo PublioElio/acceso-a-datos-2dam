@@ -3,16 +3,7 @@
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" />
   </component>
-  <component name="FacetManager">
-    <facet type="hibernate" name="Hibernate">
-      <configuration>
-        <datasource-map />
-        <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Act4_2/src/main/resources/hibernate.cfg.xml" />
-      </configuration>
-    </facet>
-  </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="7b838c6c-d04e-4448-94e5-3774b7eae530" />
+    <option name="uniqueId" value="fdf2c677-16b0-4f59-a44d-68ef08a6948d" />
   </component>
 </module>
