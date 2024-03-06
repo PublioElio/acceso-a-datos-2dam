@@ -1,0 +1,8 @@
+
+R
+java:S1854"7Remove this useless assignment to local variable "dao".(ßè Âûÿÿÿÿ
+C
+java:S1481"(Remove this unused "dao" local variable.(ßè Âûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(É»Á€
+@	java:S106&"+Replace this use of System.out by a logger.(ý§öð
+V	java:S125'"<This block of commented-out lines of code should be removed.(Ðý®Ìûÿÿÿÿ
